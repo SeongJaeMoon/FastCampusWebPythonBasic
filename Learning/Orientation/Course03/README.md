@@ -59,7 +59,7 @@ Visual Studio code와 관련된 각종 실행 파일이 저장될 위치를 선�
 잠시 기다리면 설치가 완료됩니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Orientation/Course03/static/vscode9.JPG" width="70%" height="100%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Orientation/Course03/static/vscode10.JPG" width="70%" height="100%">
 </p>
 
 설치가 완료되면 "Visual Studio Code 시작"을 체크하고, Visual Studio Code를 실행합니다.
@@ -81,7 +81,7 @@ Visual Studio code와 관련된 각종 실행 파일이 저장될 위치를 선�
 ## 3. 크롬 개발자 도구 실행
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Orientation/Course03/static/vscode11.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Orientation/Course03/static/chrome-development1.JPG" width="100%" height="70%">
 </p>
 
 크롬을 설치하고 개발자 도구를 실행하면 여러가지 정보가 나타나게 됩니다.
@@ -92,10 +92,10 @@ Visual Studio code와 관련된 각종 실행 파일이 저장될 위치를 선�
 > 맥 : Cmd + Opt + I
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Orientation/Course03/static/vscode11.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Orientation/Course03/static/chrome-development2.JPG" width="100%" height="70%">
 </p>
 
 개발자 도구 콘솔(Console) 탭을 클릭하고 여러 가지 값들을 입력해보세요! 1 + 1을 입력하면 어떤 결과가 나타날까요? 
 
-우리는 개발자의 길을 걷고 있기 때문에, 여러 가지 새로운 정보들과 생소한 기술들에 대해서 익숙해져야 합니다. 개발자 도구에 나타나는 정보들이 의미하는 내용은 강의를 진행하면서 하나하나 살펴보는 것으로 하고 지금은 개발자 도구를 통해서 웹 페이지를 제작하기 위해 사용된 프로그램 코드, 이미지 등과 같은 각종 자원들을 확인할 수 있다는 점만 기억해주시면 됩니다!
+우리는 개발자의 길을 걷기 시작했기 때문에, 여러 가지 새로운 정보들과 생소한 기술들에 대해서 익숙해져야 합니다. 개발자 도구에 나타나는 정보들이 의미하는 내용은 강의를 진행하면서 하나하나 살펴보는 것으로 하고 지금은 개발자 도구를 통해서 웹 페이지를 제작하기 위해 사용된 프로그램 코드, 이미지 등과 같은 각종 자원들을 확인할 수 있다는 점만 기억해주시면 됩니다!
 
