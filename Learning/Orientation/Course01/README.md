@@ -25,7 +25,7 @@ Github 사이트에 접속했다면, Sign up for Github를 클릭해서 회원�
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Orientation/Course01/static/git3.png" width="100%" height="70%">
 </p>
 
-회원 가입을 완료하고 검색창에 "SeongJaeMoon"이라고 검색한 후, Users 탭을 클릭해주시면 제 Github 저장소가 나타나게 됩니다. 클릭해주세요.
+회원 가입을 완료하고 검색창에 "SeongJaeMoon"이라고 검색한 후, Users 탭을 클릭해주시면 저의 Github 저장소가 나타나게 됩니다. 클릭해주세요.
 
 <p align="center">
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Orientation/Course01/static/git4.png" width="100%" height="70%">

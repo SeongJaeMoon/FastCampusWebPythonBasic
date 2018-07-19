@@ -21,8 +21,9 @@
 
 # 바로가기
 ## Orientation
-1. [Github 사용하기](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Orientation/Course01/)
-2. [HTTP 이해하기](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Orientation/Course02/)
+1. [Github 시작하기](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Orientation/Course01/)
+2. [클라이언트와 서버](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Orientation/Course02/)
+3. [개발환경과 브라우저](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Orientation/Course03/)
 
 ## HTML
 
