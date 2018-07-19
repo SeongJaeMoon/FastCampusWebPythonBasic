@@ -65,13 +65,13 @@ Visual Studio code와 관련된 각종 실행 파일이 저장될 위치를 선�
 설치가 완료되면 "Visual Studio Code 시작"을 체크하고, Visual Studio Code를 실행합니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Orientation/Course03/static/vscode10.JPG" width="70%" height="100%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Orientation/Course03/static/vscode11.JPG" width="70%" height="100%">
 </p>
 
 처음 실행하면 위 화면과 같이 언어팩 설정이 달라 한글 언어팩을 설치해야 할 수 있습니다. "설치 및 다시 시작"을 클릭해서 언어팩을 한글로 설정해줍니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Orientation/Course03/static/vscode11.JPG" width="70%" height="100%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Orientation/Course03/static/vscode12.JPG" width="70%" height="100%">
 </p>
 
 언어팩 설치까지 완료되면, 이제 코드를 작성하고 프로그램을 실행할 준비가 완료됐습니다! :)
@@ -81,7 +81,7 @@ Visual Studio code와 관련된 각종 실행 파일이 저장될 위치를 선�
 ## 3. 크롬 개발자 도구 실행
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Orientation/Course03/static/chrome-development1.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Orientation/Course03/static/chrome-development1.png" width="100%" height="70%">
 </p>
 
 크롬을 설치하고 개발자 도구를 실행하면 여러가지 정보가 나타나게 됩니다.
@@ -92,7 +92,7 @@ Visual Studio code와 관련된 각종 실행 파일이 저장될 위치를 선�
 > 맥 : Cmd + Opt + I
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Orientation/Course03/static/chrome-development2.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Orientation/Course03/static/chrome-development2.png" width="100%" height="70%">
 </p>
 
 개발자 도구 콘솔(Console) 탭을 클릭하고 여러 가지 값들을 입력해보세요! 1 + 1을 입력하면 어떤 결과가 나타날까요? 
