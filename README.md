@@ -22,7 +22,7 @@
 # 바로가기
 ## Orientation
 1. [Github 사용하기](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Orientation/Course01/)
-2. [Http 이해하기](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Orientation/Course02/)
+2. [HTTP 이해하기](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Orientation/Course02/)
 
 ## HTML
 
