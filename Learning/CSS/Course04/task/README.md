@@ -76,7 +76,7 @@ css 코드를 구성하는게 조금 생소한 프로퍼티가 등장해서 어�
 5. "background-size" 프로퍼티가 중요한데요, 너비와 높이 속성을 100%씩 적용합니다. 그러면, 브라우저의 크기가 줄어들어도 그 비율을 유지하게됩니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/CSS/Course04/static/pull_page_size.png" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/CSS/Course04/static/full_page_size.png" width="100%" height="70%">
 </p>
 
 <p align="center">브라우저의 너비를 줄여도 이미지의 비율이 유지됩니다.</p>
