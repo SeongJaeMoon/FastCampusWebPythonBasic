@@ -61,13 +61,13 @@ HTML은 HyperText Markup Language의 약자로 우리가 웹 페이지 상에 �
 이 라이브 서버를 VS Code에서 실행하기 위한 방법은 두 가지가 있습니다. 
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/HTML/Course01/static/run1.JPG" width="70%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/HTML/Course01/static/run1.png" width="70%" height="70%">
 </p>
 
 첫 번째 방법은 index.html 파일을 열고 마우스 버튼 우클릭을 해주면 "Open with Live Server"가 나타납니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/HTML/Course01/static/run2.JPG" width="70%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/HTML/Course01/static/run2.png" width="70%" height="70%">
 </p>
 
 두 번째 방법은 명령 팔레트를 통해 실행하는 방법입니다. 명령 팔레트를 실행하고 Live Server라고 입력하면 "Open with Live Server"가 나타납니다.
