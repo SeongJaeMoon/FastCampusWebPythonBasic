@@ -69,20 +69,20 @@ css 코드를 구성하는게 조금 생소한 프로퍼티가 등장해서 어�
 3. "background-position" 프로퍼티의 값을 "center(가운데)"로 설정하면 이미지가 가운데로 위치합니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/CSS/Course04/task/static/no-repeat.png" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/CSS/Course04/static/no-repeat.png" width="100%" height="70%">
 </p>
 
 4. "background-repeat" 프로퍼티는 기본 값이 "repeat"(반복)입니다. 그렇기 때문에, "no-repeat"로 값을 설정해주지 않으면 이미지의 반복이 일어납니다.
 5. "background-size" 프로퍼티가 중요한데요, 너비와 높이 속성을 100%씩 적용합니다. 그러면, 브라우저의 크기가 줄어들어도 그 비율을 유지하게됩니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/CSS/Course04/task/static/pull_page_size.png" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/CSS/Course04/static/pull_page_size.png" width="100%" height="70%">
 </p>
 
 <p align="center">브라우저의 너비를 줄여도 이미지의 비율이 유지됩니다.</p>
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/CSS/Course04/task/static/full_page.png" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/CSS/Course04/static/full_page.png" width="100%" height="70%">
 </p>
 
 저는 p태그와 a태그에 몇 가지 스타일을 적용해서 위 화면처럼 나타나게 했습니다. 여러분이 좋아하는 사진을 가지고 직접 전체 화면을 가득 채우는 페이지를 만들어보세요! 그리고 그 위에 여러 엘리먼트를 구성해서 다양하게 표현해보세요! (참고로 background-image는 body태그 보다는 html태그를 기준으로 작성하는 것이 브라우저 높이를 맞추는데 도움이 됩니다!)
