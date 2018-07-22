@@ -1,0 +1,56 @@
+<!-- 
+id 속성의 값이 p_tag인 p 태그 다음 요소의 색을 빨간색으로 변경!  
+class 속성이 table인 테이블 태그의 제목1, 2는 빨간색으로 본문1, 2는 파란색으로 본문 3, 4는 노란색으로 변경!
+-->
+
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>선택자 문법 사용하기</title>
+        <style>
+            #p_tag + p{
+                color: red;
+            }
+            .table th{
+                color: red;
+            }
+            .table > tbody > tr > td{
+                color:blue;
+            }
+
+            .table > tbody > tr + tr > td{
+                color:yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>제목</h1>
+            <div>
+                <p id="p_tag">문단</p>
+                <p>문단</p>
+            </div>
+            <div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>제목1</th>
+                            <th>제목2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>본문1</td>
+                            <td>본문2</td>
+                        </tr>
+                        <tr>
+                            <td>본문3</td>
+                            <td>본문4</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

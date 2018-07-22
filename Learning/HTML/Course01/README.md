@@ -58,6 +58,28 @@ HTML은 HyperText Markup Language의 약자로 우리가 웹 페이지 상에 �
 </p>
 확장 프로그램의 "설치됨" 부분에 Live Server가 나타나면 정상적으로 설치가 완료된 것 입니다!
 
+이 라이브 서버를 VS Code에서 실행하기 위한 방법은 두 가지가 있습니다. 
+
+<p align="center">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/HTML/Course01/static/run1.JPG" width="70%" height="70%">
+</p>
+
+첫 번째 방법은 index.html 파일을 열고 마우스 버튼 우클릭을 해주면 "Open with Live Server"가 나타납니다.
+
+<p align="center">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/HTML/Course01/static/run2.JPG" width="70%" height="70%">
+</p>
+
+두 번째 방법은 명령 팔레트를 통해 실행하는 방법입니다. 명령 팔레트를 실행하고 Live Server라고 입력하면 "Open with Live Server"가 나타납니다.
+
+**명령 팔레트 단축키**
+
+> 윈도우 : Ctrl + Shift + P
+
+> 맥 : Cmd + Opt + p
+
+두 가지 방법 모두 변경 사항을 저장하면 자동으로 크롬에 변경 사항이 적용되므로 변경 사항이 생기면 저장만 해주시면 됩니다 :) 만약, 적용이 되지 않는다면 페이지 새로 고침을 해주세요!
+
 VS Code는 Live Server 뿐만 아니라, 우리가 코드를 작성할 때 꼭 필요하거나 선택 사항이지만 꽤나 유용한 확장 프로그램이 많이 존재합니다. VS Code를 사용하면서 꼭 제가 말씀드리는 것 뿐만 아니라, 다른 여러가지 확장 프로그램을 검색해서 찾아보고 본인이 사용하고 싶은 확장 프로그램을 설치하고 사용해도 괜찮습니다 :)
 
 HTML에 대해서 조금 감이 오시나요? 우리가 프로그래밍 언어를 공부할 때 용어, 그리고 개념들이 굉장히 많이 등장하는데요. 이러한 용어의 기원과 개념들에 대해서 하나하나 알아가는 과정에서 점점 프로그래밍과 가까워지실 수 있을 거라고 믿습니다 :)

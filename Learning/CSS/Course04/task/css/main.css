@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+html {
+    /* background 이미지 설정 */
+    /* 아래 코드는 background: url("../img/cat.jpeg")no-repeat center center fixed;과 같이 한 번에 작성할 수 있습니다. */
+    background-image: url("../img/cat.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /* 이미지 크기 설정(꽉 차게) 너비, 높이 */
+    background-size: 100% 100%;
+}
+/* a태그 가상 선택자로 색 고정 */
+a:link{
+    color: white;
+}
+a:hover {
+    color: white;
+}
+a:visited {
+    color:white;
+}
+div > p {
+   /* 마진 설정 */
+   margin-left: auto; 
+   margin-right: auto;
+   margin-top: 300px;
+   /* 배경색 투명도 지정 */
+   background-color: rgba(255, 255, 255, 0.2);
+   /* 테두리 설정 */
+   border: 2px solid white;
+   /* 패딩 설정 */
+   padding: 20px; 
+   /* 너비 설정 */
+   width: 100px;
+   /* 요소 콘텐츠 가운데 정렬 */
+   text-align: center;
+}

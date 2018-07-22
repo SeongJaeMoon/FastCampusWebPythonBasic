@@ -39,7 +39,7 @@
 1. [CSS 소개](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/CSS/Course01/)
 2. [CSS 선택자](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/CSS/Course02/)
 3. [CSS 스타일](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/CSS/Course03/)
-4. [CSS link](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/CSS/Course04/)
+4. [CSS link, 상속](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/CSS/Course04/)
 5. [부트스트랩](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/CSS/Course05/)
 ## JavaScript
 

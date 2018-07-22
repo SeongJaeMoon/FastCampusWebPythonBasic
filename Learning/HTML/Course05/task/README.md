@@ -62,7 +62,7 @@ HTML 코드를 통해 화면을 구성하는 방법을 보통 Layout이라고 �
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>SIST_쌍용교육센터</title>
+        <title>레이아웃 구성</title>
     </head>
     <body>
         <div class="container">

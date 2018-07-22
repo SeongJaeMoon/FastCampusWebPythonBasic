@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>css 선택자</title>
+        <style>
+            div#test1 p{
+                color: red;
+            }
+            div#test2 > p{
+                color: red;
+            }
+            div#test3 p#p1 + p{
+                color: red;
+            }
+            div#test4 p#p1 ~ p{
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="test1">
+            <p>문단 태그입니다.</p>
+            <div>
+                <p>문단 태그입니다.</p>
+            </div>
+        </div>
+        <br>
+        <div id="test2">
+            <p>문단 태그입니다.</p>
+            <div>
+                <p>문단 태그입니다.</p>
+            </div>
+        </div>
+        <br>
+        <div id="test3">
+            <p>문단 태그입니다.</p>
+            <p>문단 태그입니다.</p>
+            <p id="p1">문단 태그입니다.</p>
+            <p>문단 태그입니다.</p>
+            <p>문단 태그입니다.</p>
+        </div>
+        <br>
+        <div id="test4">
+                <p>문단 태그입니다.</p>
+                <p>문단 태그입니다.</p>
+                <p id="p1">문단 태그입니다.</p>
+                <p>문단 태그입니다.</p>
+                <p>문단 태그입니다.</p>
+                <p>문단 태그입니다.</p>
+                <p>문단 태그입니다.</p>
+                <p>문단 태그입니다.</p>
+                <p>문단 태그입니다.</p>
+        </div>
+    </body>
+</html>

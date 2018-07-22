@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+div{
+    color: red;
+    font-size: 25px;
+    font-style: italic;
+    border: 5px solid red;
+    padding: 50px;
+    margin: 10px;
+    height: 250px;
+    width: 500px;
+}
