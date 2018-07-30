@@ -11,7 +11,7 @@
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/HTML/Course05/static/layout1.png" width="100%" height="70%">
 </p>
 
-[카카오 오븐 사이트](https://ovenapp.io/)에 접속하고 회원 가입을 진행하고, "새로운 프로젝트를 만들기"를 클릭합니다.
+[카카오 오븐 사이트](https://ovenapp.io/)에 접속하고 회원 가입을 진행한 후, "새로운 프로젝트를 만들기"를 클릭합니다.
 
 ## 새로운 프로젝트 만들기
 
