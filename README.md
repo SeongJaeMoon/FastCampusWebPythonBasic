@@ -24,7 +24,6 @@
 1. [Github 시작하기](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Orientation/Course01/)
 2. [클라이언트와 서버](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Orientation/Course02/)
 3. [개발환경과 브라우저](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Orientation/Course03/)
-
 ## HTML
 1. [HTML 소개](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/HTML/Course01/)
 2. [HTML 구조](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/HTML/Course02/)
@@ -46,6 +45,8 @@
 2. [Javascript 소개](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Javascript/Course02/)
 3. [Javascript 구조](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Javascript/Course03/)
 4. [Javascript 변수](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Javascript/Course04/)
+5. [Javascript 연산자](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Javascript/Course05/)
+6. [Javascript 조건문](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Javascript/Course06/)
 ## Python
 
 
