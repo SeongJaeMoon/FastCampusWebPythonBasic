@@ -80,6 +80,34 @@ HTML은 HyperText Markup Language의 약자로 우리가 웹 페이지 상에 �
 
 두 가지 방법 모두 변경 사항을 저장하면 자동으로 크롬에 변경 사항이 적용되므로 변경 사항이 생기면 저장만 해주시면 됩니다 :) 만약, 적용이 되지 않는다면 페이지 새로 고침을 해주세요!
 
+**Live Server 기본 브라우저 선택**
+
+VS Code의 Live Server 확장을 통해 우리가 작성한 프로그램 코드를 실행할 때 기본 실행 브라우저가 크롬이 아닌, Internet Explorer로 실행되는 경우가 있을 수 있습니다. (특히, 윈도우 환경) 이럴 경우 Live Server로 실행할 브라우저를 따로 설정해주어야 합니다.
+
+<p align="center">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/HTML/Course01/static/setting1.png" width="100%" height="70%">
+</p>
+
+우선 위에서 살펴본 명령 팔레트를 실행하고, `setting`이라고 입력합니다. `Preferences: Open User Setting`이라고 나오는 부분을 클릭하여 실행합니다.
+
+<p align="center">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/HTML/Course01/static/setting2.png" width="100%" height="70%">
+</p>
+
+정상적으로 실행되면 위 처럼 여러가지 설정 정보가 나오게 됩니다. 검색창에 `liveServer.settings`이라고 입력해줍니다.
+
+<p align="center">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/HTML/Course01/static/setting4.png" width="60%" height="50%">
+</p>
+
+여러 설정 중에서 `"liveServer.settings.CustomBrowser: null",`이라고 작성된 부분을 찾습니다.
+
+<p align="center">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/HTML/Course01/static/setting5.png" width="60%" height="60%">
+</p>
+
+왼쪽의 펜 모양 아이콘을 클릭하면 브라우저를 선택할 수 있는 창이 나타납니다. `chrome` 브라우저를 선택해줍니다.
+
 VS Code는 Live Server 뿐만 아니라, 우리가 코드를 작성할 때 꼭 필요하거나 선택 사항이지만 꽤나 유용한 확장 프로그램이 많이 존재합니다. VS Code를 사용하면서 꼭 제가 말씀드리는 것 뿐만 아니라, 다른 여러가지 확장 프로그램을 검색해서 찾아보고 본인이 사용하고 싶은 확장 프로그램을 설치하고 사용해도 괜찮습니다 :)
 
 HTML에 대해서 조금 감이 오시나요? 우리가 프로그래밍 언어를 공부할 때 용어, 그리고 개념들이 굉장히 많이 등장하는데요. 이러한 용어의 기원과 개념들에 대해서 하나하나 알아가는 과정에서 점점 프로그래밍과 가까워지실 수 있을 거라고 믿습니다 :)

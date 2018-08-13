@@ -47,6 +47,7 @@
 4. [Javascript 변수](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Javascript/Course04/)
 5. [Javascript 연산자](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Javascript/Course05/)
 6. [Javascript 조건문](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Javascript/Course06/)
+7. [Javascript 반복문](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Javascript/Course07/)
 ## Python
 
 

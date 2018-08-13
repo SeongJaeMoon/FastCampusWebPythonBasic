@@ -1,11 +1,11 @@
 # Javascript 조건문
 
 키워드 : [비교 연산](https://www.w3schools.com/js/js_comparisons.asp), 
-[논리 연산](https://www.w3schools.com/js/js_booleans.asp), [if~else 조건문](https://www.w3schools.com/js/js_if_else.asp), [switch~case 조건문](https://www.w3schools.com/js/js_switch.asp)
+[논리 연산](https://www.w3schools.com/js/js_booleans.asp), [if~else 조건문](https://www.w3schools.com/js/js_if_else.asp), [switch~case 조건문](https://www.w3schools.com/js/js_switch.asp), [break 구문](https://www.w3schools.com/js/js_break.asp)
 
-제가 강의 영상에서 프로그래밍은 논리적인 구조를 짜는 작업이라고 자주 언급했습니다. 논리적인 구조를 구성하기 위해 필수적으로 사용하게 되는 코드 구문이 이번 절에서 정리할 조건문입니다.
+제가 강의 영상에서 프로그래밍은 논리적인 구조를 짜는 작업이라고 자주 언급했습니다. 논리적인 구조를 구성하기 위해 필수적으로 사용하게 되는 코드 구문이 이번 장에서 정리할 조건문입니다.
 
-조건문은 특정 조건이 만족할 경우에 실행하고 싶은 코드를 하나의 블록({})으로 묶는 코드의 흐름 제어 구문입니다. 앞서 연산자에서 살펴본 비교 연산자와 이번 절에서 살펴볼 논리 연산자를 이용해 조건을 처리하게 됩니다.
+조건문은 특정 조건이 만족할 경우에 실행하고 싶은 코드를 하나의 블록({})으로 묶는 코드의 흐름 제어 구문입니다. 앞서 연산자에서 살펴본 비교 연산자와 이번 장에서 살펴볼 논리 연산자를 이용해 조건을 처리하게 됩니다.
 
 비교 연산자에 대한 정리는 어느 정도 선행되었다고 생각하고 글을 작성하도록 하겠습니다.
 
