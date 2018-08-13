@@ -88,7 +88,7 @@ VS Code의 Live Server 확장을 통해 우리가 작성한 프로그램 코드�
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/HTML/Course01/static/setting1.png" width="100%" height="70%">
 </p>
 
-우선 위에서 살펴본 명령 팔레트를 실행하고, `setting`이라고 입력합니다. `Preferences: Open User Setting`이라고 나오는 부분을 클릭하여 실행합니다.
+우선 위에서 살펴본 명령 팔레트를 실행하고, `setting`이라고 입력합니다. `Preferences: Open User Settings`이라고 나오는 부분을 클릭하여 실행합니다.
 
 <p align="center">
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/HTML/Course01/static/setting2.png" width="100%" height="70%">

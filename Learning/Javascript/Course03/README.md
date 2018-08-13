@@ -42,7 +42,7 @@ DOM은 쉽게 말해서 문서(Document)에 접근하는 방법을 정의한 것
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Javascript/Course03/static/dom1.png" width="100%" height="70%">
 </p>
 
-이 HTML DOM 이라는 것은 쉽게 말해 HTML의 모든 엘리먼트 하나 하나를 객체(Object)로 인식하고, 특정 엘리먼트의 내용을 얻어오거나, 수정, 추가, 삭제 등을 할 수 있도록 제정된 방법이며, 웹 표준이라고 할 수 있습니다.
+결론적으로, HTML DOM이라는 것은 HTML의 모든 엘리먼트 하나하나를 객체(Object)로 인식하고, 특정 엘리먼트의 내용을 얻어오거나, 수정, 추가, 삭제 등을 할 수 있도록 제정된 방법이며, 웹 표준이라고 할 수 있습니다.
 
 
 
