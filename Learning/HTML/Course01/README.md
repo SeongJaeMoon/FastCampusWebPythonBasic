@@ -80,7 +80,7 @@ HTML은 HyperText Markup Language의 약자로 우리가 웹 페이지 상에 �
 
 두 가지 방법 모두 변경 사항을 저장하면 자동으로 크롬에 변경 사항이 적용되므로 변경 사항이 생기면 저장만 해주시면 됩니다 :) 만약, 적용이 되지 않는다면 페이지 새로 고침을 해주세요!
 
-**Live Server 기본 브라우저 선택**
+## Live Server 기본 브라우저 선택
 
 VS Code의 Live Server 확장을 통해 우리가 작성한 프로그램 코드를 실행할 때 기본 실행 브라우저가 크롬이 아닌, Internet Explorer로 실행되는 경우가 있을 수 있습니다. (특히, 윈도우 환경) 이럴 경우 Live Server로 실행할 브라우저를 따로 설정해주어야 합니다.
 
@@ -106,7 +106,7 @@ VS Code의 Live Server 확장을 통해 우리가 작성한 프로그램 코드�
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/HTML/Course01/static/setting5.png" width="60%" height="60%">
 </p>
 
-왼쪽의 펜 모양 아이콘을 클릭하면 브라우저를 선택할 수 있는 창이 나타납니다. `chrome` 브라우저를 선택해줍니다.
+왼쪽의 펜 모양 아이콘을 클릭하면 브라우저를 선택할 수 있는 창이 나타납니다. `chrome` 브라우저를 선택하고 변경 사항을 저장합니다.
 
 VS Code는 Live Server 뿐만 아니라, 우리가 코드를 작성할 때 꼭 필요하거나 선택 사항이지만 꽤나 유용한 확장 프로그램이 많이 존재합니다. VS Code를 사용하면서 꼭 제가 말씀드리는 것 뿐만 아니라, 다른 여러가지 확장 프로그램을 검색해서 찾아보고 본인이 사용하고 싶은 확장 프로그램을 설치하고 사용해도 괜찮습니다 :)
 
