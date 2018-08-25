@@ -60,11 +60,11 @@ var arr = new Array(); //배열 객체
 
 일반적으로 new 연산자를 사용해 객체를 선언하는 방법보단 우리가 기존에 알고있는 리터럴 자료형 선언 방식을 권장합니다. 위 코드는 아래와 같이 리터럴 방식으로 선언할 수 있습니다.
 ```javascript
-var obj = {}; // 빈 객체 선언
-var str = ""; // 빈 문자열 선언
-var num = 0; // 숫자타입 선언
-var bool = false; // 논리타입 선언
-var arr = []; // 빈 배열 선언
+var obj = {}; //빈 객체 선언
+var str = ""; //빈 문자열 선언
+var num = 0; //숫자타입 선언
+var bool = false; //논리타입 선언
+var arr = []; //빈 배열 선언
 ```
 
 단, 예외적으로 내장 객체 부분에서 살펴볼 날짜 정보를 표현하는 Date 객체와 같은 경우 new 연산자를 이용해 선언해서 사용해야 하는 경우도 있습니다. 이러한 부분은 한 번에 모두 이해하기 다소 어려울 수 있습니다. 코드를 직접 작성하면서 하나하나 익혀 나가도록 해보세요! :)
@@ -121,4 +121,31 @@ console.log(Math.round(y)); //소수점 이하를 반올림 -> 12
 ```
 더 많은 Math 객체와 관련된 내용은 [여기](https://www.w3schools.com/jsref/jsref_obj_math.asp)를 참고해주세요. 
 
+**추가 내용**
+## null 값
+우리가 자바스크립트 자료형에서 다루지 않았던 내용 중에 null 값이라는 게 있었습니다. `null 값`은 기본적으로 아무것도 없음을 나타냅니다. 쉽게 말해 '존재 하지 않는 값'을 지칭합니다. 또한, 자바스크립트에서 null 값은 하나의 객체로 표현됩니다. 
+```javascript
+var user = {firstname: "seongjae", 
+            lastname: "moon", 
+            city: "Suwon", 
+            gender: "male"};
+
+var user = null; //user 객체에 null 값 할당
+console.log(typeof user); //object
+```
+말이 조금 어려울 수 있는데요, 예를 들어 위와 같은 코드가 있다고 가정해보겠습니다. 위의 코드에서 'user' 객체를 선언하고 user 객체에 null 값을 할당했습니다. null 값을 할당함으로써 user 객체가 가지고 있던 모든 속성은 사용할 수 없습니다. 하지만, user 객체는 여전히 객체를 나타내는 object 형을 갖습니다. 
+
+그렇다면, 우리가 알고 있는 타입이 아직 정해지지 않은 형태인 'undefined'와 차이점은 무엇일까요? 바로 타입과 관련 있습니다. `null 값`은 object라는 객체를 나타내는 타입이지만, undefined는 undefined 자체로 고유한 타입을 갖습니다.
+```javascript
+console.log(typeof undefined); //undefiend
+console.log(typeof null); //object
+
+console.log(null == undefined); //true
+console.log(null === undefined); //false
+```
+일반적으로 null 값은 객체를 초기화하기 위해서 사용됩니다. 쉽게 생각해서 아래 코드와 같이 의도적으로 어떤 객체를 사용하기 전에 객체를 담을 변수에 null 값을 할당하고 나중에 해당 객체의 특정 값을 할당하는 형태라고 할 수 있습니다.
+```javascript
+var obj = null;
+//코드...
+```
 자바스크립트는 객체 지향(Object-Oriented) 프로그래밍 언어 중 하나입니다. 프로그램 코드 상에 표현되는 다양한 정보의 의미 있는 것들을 묶어 하나의 개념으로 추상화시켜 객체로 표현하고 사용하게 됩니다. 객체와 관련된 내용은 전체 자바스크립트 챕터 중에서도 난이도 있는 파트 중에 하나입니다. 또한, 굉장히 중요한 파트이기도 합니다. 당장은 이해하기 어려운 부분들이 존재하겠지만, 직접 다양한 코드를 작성해보고 익숙해지도록 노력해보세요 :)

@@ -1,5 +1,5 @@
 # Javascript 반복문
-키워드 : [배열](https://www.w3schools.com/js/js_arrays.asp), [for 구문](https://www.w3schools.com/js/js_loop_for.asp), [while 구문](https://www.w3schools.com/js/js_loop_while.asp), [break &amp; continue 구문]([break](https://www.w3schools.com/js/js_break.asp))
+키워드 : [배열](https://www.w3schools.com/js/js_arrays.asp), [for 구문](https://www.w3schools.com/js/js_loop_for.asp), [while 구문](https://www.w3schools.com/js/js_loop_while.asp), [break &amp; continue 구문](https://www.w3schools.com/js/js_break.asp)
 
 컴퓨터는 우리가 잘 알고 있듯이 굉장히 빠른 연산 속도를 자랑합니다. 컴퓨터를 새로 구매할 때 CPU의 성능 및 메모리의 성능 등을 확인하고 구매하는 이유도 이러한 컴퓨터의 연산 속도를 극대화해서 사용하기 위함이라고 할 수 있습니다. 이러한 컴퓨터의 빠른 연산 속도를 활용한 코드 구문이 이번 장에서 정리할 반복문입니다.
 
@@ -111,7 +111,7 @@ for(var i = 0; i < 5; ++i){
     }
 }
 ```
-위 코드는 `0, 1, 2, 3, 4`를 5번 출력하는 코드입니다. 우선, 바깥 쪽 1번 for 구문이 실행될 때 마다 안 쪽 2번 for 구문이 계속 실행되는 구조입니다. 즉, 변수 i 값이 1 증가 할 때마다 안 쪽 2번 for 구문의 j 값은 0~4 까지 모두 반복하는 작업을 실행하며, 이 작업을 바깥 쪽 1번 for 구문의 반복 중지 조건을 만족할 때 까지 반복하게 됩니다.  
+위 코드는 `0, 1, 2, 3, 4`를 5번 출력하는 코드입니다. 우선, 바깥쪽 1번 for 구문이 실행될 때마다 안 쪽 2번 for 구문이 반복이 완료될 때까지 실행되는 구조입니다. 즉, 변수 i 값이 1 증가할 때마다 안 쪽 2번 for 구문의 j 값은 0~4 까지 모두 반복하는 작업을 실행하며, 이 작업을 바깥쪽 1번 for 구문의 반복 중지 조건을 만족할 때까지 반복하게 됩니다.
 
 계속해서 반복문과 관련된 내용에 대해서 더 살펴보도록 하겠습니다.
 
