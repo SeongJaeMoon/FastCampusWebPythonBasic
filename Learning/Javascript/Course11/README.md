@@ -17,6 +17,7 @@ window.document.getElementById("id").innertHTML = "안녕!";
 위 코드 예시의 1번 코드와 2번 코드는 동일한 코드입니다. 코드에서 나타나듯이, `window` 객체는 최상위 객체이기 때문에 생략하고 사용할 수 있습니다.
 
 `window` 객체에서 자주 사용되는 메서드는 다음과 같습니다.
+
 메서드|의미
 |:-:|:-:|
 window.open()|새 창을 엽니다.
@@ -36,16 +37,19 @@ var height = document.body.clientHeight;
 다음은 `screen`객체입니다. `screen`객체는 이름 그대로 웹 페이지를 방문하는 사용자의 `screen`과 관련된 속성 값들을 제공합니다.
 
 `screen` 객체에서 자주 사용되는 속성은 다음과 같습니다.
+
 속성|의미
 |:-:|:-:|
 screen.width|스크린의 너비를 픽셀 단위로 반환합니다.
 screen.height|스크린의 높이를 픽셀 단위로 반환합니다.
 screen.colorDepth|하나의 색을 표현하기 위해 사용되는 비트수를 반환합니다. (스크린 해상도 e.g., 24bit) 
 screen.pixelDepth|하나의 색을 표현하기 위해 사용되는 비트수를 반환합니다. (스크린 해상도 e.g., 24bit)
+
 ## Location
 다음은 `Location`객체입니다. `Location`객체는 현재 페이지의 주소(URL)를 얻어오고, 새로운 페이지를 여는 동작을 할 수 있도록 해주는 객체입니다.
 
 `location` 객체에서 자주 사용되는 속성과 메서드는 다음과 같습니다.
+
 명칭|의미
 |:-:|:-:|
 location.href|현재 페이지의 주소(URL)를 얻어옵니다.
@@ -59,13 +63,14 @@ location.assign("주소")|주소 페이지로 연결합니다.
 다음은 `history`객체입니다. `history` 객체는 마찬가지로 이름에서 느껴지듯이, 사용자의 웹 페이지 방문 정보를 담고 있는 객체라고 할 수 있습니다.
 
 `location` 객체에서 자주 사용되는 메서드는 다음과 같습니다.
+
 메서드|의미
 |:-:|:-:|
 history.back()|뒤로 가기(현재 페이지 -> 이전 페이지)
 history.forward()|앞으로 가기(이전 페이지 -> 기존 페이지)
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Javascript/Course11/static/history.png" width="60%" height="50%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Javascript/Course11/static/history.png" width="60%" height="40%">
 </p>
 
 위 사진에서 보이는 브라우저 왼쪽 상단에 있는 버튼을 생각하시면 이해하기 쉽습니다. 
@@ -74,7 +79,9 @@ history.forward()|앞으로 가기(이전 페이지 -> 기존 페이지)
 다음은 `popup` 관련 객체입니다. `popup`이라는 객체명이 따로 존재하는 것은 아닙니다. 자바스크립트에서 제공하는 팝업창과 관련 객체는 크게 세 가지입니다. 
 
 다음은 팝업창과 관련된 세 가지 메서드입니다.
+
 메서드|의미
+|:-:|:-:|
 window.alert("제목")|방문자에게 정보를 제공하기 위해 띄우는 팝업입니다.
 window.confirm("제목")|방문자에게 확인 요청을 위해 띄우는 팝업입니다.
 window.prompt("제목", "기본값")|방문자에게 입력 값을 요청하기 위해 띄우는 팝업입니다.
@@ -115,6 +122,7 @@ var userName = prompt("이름이 뭐에요?", "문성재!");
 다음은 `timing`객체입니다. 강의에서 살펴봤던 `setInterval` 메서드가 바로 이 타이밍 관련 메서드입니다.
 
 자바스크립트에서 타이머를 만들 수 있는 방법은 아래와 같이 크게 두 가지 방법이 있습니다.
+
 메서드|의미
 |:-:|:-:|
 setTimeout("함수명", 밀리초)|밀리초 단위가 지날 때까지 기다렸다가 함수 실행(한번 실행)
@@ -195,7 +203,7 @@ document.cookie = "user=seongjae; expires=Date();, path=/;";
 예를 들면, 아래와 같습니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Javascript/Course11/static/meta1.png" width="45%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Javascript/Course11/static/meta1.png" width="45%" height="100%">
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Javascript/Course11/static/meta2.png" width="45%" height="70%">
 </p>
 
