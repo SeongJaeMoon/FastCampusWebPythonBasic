@@ -16,3 +16,6 @@ if (gap > 0) {
 }
 //계산 결과 출력
 document.write("D-day를 기준으로 D" + result + "입니다.");
+
+
+

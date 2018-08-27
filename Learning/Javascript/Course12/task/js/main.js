@@ -6,3 +6,4 @@ function getDate(){
     result = year + "-" + month + "-" + day;
     document.getElementById("test").innerHTML = result;
 }
+

@@ -21,7 +21,7 @@
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Javascript/Course01/static/firebase0.png" width="50%" height="50%">
 </p>
 
-다음은, 새로운 프로젝트를 만들기 위한 정보를 입력합니다. 프로젝트 이름은 도메인 주소에 나타나는 이름이기도 합니다. 그렇기 때문에 의미 있는 프로젝트 명으로 작성해주세요!(ex. aboutme)
+다음은, 새로운 프로젝트를 만들기 위한 정보를 입력합니다. 프로젝트 이름은 도메인 주소에 나타나는 이름이기도 합니다. 그렇기 때문에 의미 있는 프로젝트 명으로 작성해주세요!(e.g., aboutme)
 
 <p align="center">
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Javascript/Course01/static/firebase2.png" width="100%" height="70%">

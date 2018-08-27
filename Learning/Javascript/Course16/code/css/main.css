@@ -1,0 +1,26 @@
+
+div#wrap{
+    border: 3px solid red;
+    padding: 100px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+div.over > img{
+    animation-name: move;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move {
+    from{
+        opacity: 0.2;
+    }
+    to{
+        opacity: 1;
+        margin-top: -15%;
+    }
+}
