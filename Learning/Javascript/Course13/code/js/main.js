@@ -10,3 +10,4 @@ function changeText(){
 document.getElementById("btn").onclick = function(){
     changeText();
 }
+
