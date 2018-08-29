@@ -32,7 +32,7 @@ onmouseup|엘리먼트를 클릭하고 땔 때 발생하는 이벤트
 <!doctype html>
 <html>
     <head>
-        <meta="charset">
+        <meta charset="utf-8">
         <title>preventDefault 테스트</title>
     </head>
     <body>
