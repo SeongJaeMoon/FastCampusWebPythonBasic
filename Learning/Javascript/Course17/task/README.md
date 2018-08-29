@@ -62,13 +62,13 @@ Firebase CLI를 사용하기 위해 터미널에 아래 명령어를 입력합�
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Javascript/Course17/static/fb7.JPG" title="프로젝트 생성" width="100%" height="70%">
 </p>
 
-앞 단계까지 정상적으로 진행되면, 위 사진처럼 원하는 Firebase 플랫폼 서비스를 선택하는 창이 나오게 됩니다. 우리는 hosting 서비스를 이용할 것이기 때문에 방향키를 이용해 hosting을 선택하고 스페이스바(Space bar)를 클릭하면 선택됩니다. 선택이 된 상태에서 엔터를 쳐줍니다.
+앞 단계까지 정상적으로 진행되면, 위 사진처럼 원하는 Firebase 플랫폼 서비스를 선택하는 창이 나오게 됩니다. 우리는 Hosting 서비스를 이용할 것이기 때문에, 방향키를 이용해 Hosting을 선택하고, 스페이스바(Space bar)를 클릭하면 선택됩니다. 선택이 된 상태에서 엔터를 쳐줍니다.
 
 <p align="center">
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Javascript/Course17/static/fb8.JPG" title="프로젝트 생성" width="100%" height="70%">
 </p>
 
-잠시 기다리면 `Select default Firebase project for this directory:`라는 문구가 나오며 [Firebase 콘솔](https://console.firebase.google.com/)에서 만든 프로젝트가 터미널에 표시됩니다. 저의 경우 `fastcampus`라는 이름의 프로젝트를 만들어뒀기 때문에 `fastcampus` 프로젝트를 선택했습니다.
+잠시 기다리면 `Select default Firebase project for this directory:`라는 문구가 나오며 [Firebase 콘솔](https://console.firebase.google.com/)에서 만든 프로젝트가 터미널에 표시됩니다. 저의 경우 `fastcampus`라는 이름의 프로젝트를 만들어뒀기 때문에, `fastcampus` 프로젝트를 선택했습니다.
 
 <p align="center">
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Javascript/Course17/static/fb9.JPG" title="프로젝트 생성" width="100%" height="70%">
