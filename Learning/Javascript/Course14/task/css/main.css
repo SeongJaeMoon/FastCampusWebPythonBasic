@@ -1,0 +1,16 @@
+div#container {
+    margin: auto;
+    padding: 50px;
+    border: black 5px solid;
+}
+
+p {
+    color: green;
+    font-size: 25px;
+}
+
+button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: powderblue;
+}

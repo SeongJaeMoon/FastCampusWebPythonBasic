@@ -1,5 +1,5 @@
 # Javascript 이벤트
-키워드 : [이벤트](https://www.w3schools.com/js/js_events.asp)
+키워드 : [이벤트](https://www.w3schools.com/js/js_events.asp), [캡처링&amp;버블링](https://www.w3schools.com/js/js_htmldom_eventlistener.asp)
 
 우리는 자바스크립트 강의 초반부터 여기까지 이벤트를 다루기 위해 열심히 달려왔습니다. 지금까지는 사용자의 액션과 상호 작용할 수 없는 지극히 정적(static)인 웹 페이지에 대한 내용을 다뤘습니다. 자바스크립트는 사용자가 웹 페이지에 방문하고 특정 행동을 할 때, 그 행동에 맞는 처리를 할 수 있도록 미리 사용자의 액션에 대해 이름을 붙여 놓았습니다. 그 이름을 우리는 '이벤트(Event)'라고 부릅니다. 이번 장에서는 정적인 웹 페이지에 생기를 불어넣는 자바스크립트 이벤트에 대해서 알아보도록 하겠습니다.
 
@@ -174,7 +174,7 @@ document.querySelector("div#bubble > p").addEventListener("click", function(){
 ```javascript
 document.getElementById("capture").addEventListener("click", function(e){
     e.stopPropagation();
-}, userCaputre);
+}, useCaputre);
 ```
 위와 같이 코드를 작성하면 해당 엘리먼트 다음에 나오는 엘리먼트부터 이벤트 전파를 막을 수 있습니다.
 

@@ -17,3 +17,5 @@ document.getElementById("btn1").addEventListener("click", function(){
 document.getElementById("btn1").addEventListener("click", function(){
     alert("실행문2");
 }, false);
+
+    

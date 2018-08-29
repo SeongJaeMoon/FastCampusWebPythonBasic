@@ -7,7 +7,7 @@ HTML은 HyperText Markup Language의 약자라는 점은 이미 함께 알아보
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/HTML/Course03/static/relation1.png" width="100%" height="70%">
 </p>
 
-```
+```html
 <!doctype html>
 <html> 
     <head>
