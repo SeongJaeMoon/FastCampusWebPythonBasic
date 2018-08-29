@@ -37,7 +37,7 @@ onmouseup|엘리먼트를 클릭하고 땔 때 발생하는 이벤트
     </head>
     <body>
         <input type="checkbox" id="test">
-        <script type="text/javascript" src="js/main.js">
+        <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>
 ```
