@@ -40,7 +40,7 @@
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/wpython.JPG" width="100%" height="70%">
 </p>
 
-파이썬이 정상적으로 설치되었는지 확인하기 위해서 명령 프롬프트를 실행하고, 아래 명령어를 입력합니다. `python 3.7.0` 버전이 나타나며 파이썬이 실행되면 정상 설치된 것입니다. `exti()`을 입력하여 빠져나옵니다.
+파이썬이 정상적으로 설치되었는지 확인하기 위해서 명령 프롬프트를 실행하고, 아래 명령어를 입력합니다. `python 3.7.0` 버전이 나타나며 파이썬이 실행되면 정상 설치된 것입니다. `exit()`을 입력하여 빠져나옵니다.
 
 > python
 
@@ -77,7 +77,7 @@
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/python1.png" width="100%" height="70%">
 </p>
 
-파이썬이 정상적으로 설치되었는지 확인하기 위해서, 터미널을 열고 아래 명령어를 입력합니다. `python 3.7.0` 버전이 나타나며 파이썬이 실행되면 정상 설치된 것입니다. `exti()`을 입력하여 빠져나옵니다.
+파이썬이 정상적으로 설치되었는지 확인하기 위해서, 터미널을 열고 아래 명령어를 입력합니다. `python 3.7.0` 버전이 나타나며 파이썬이 실행되면 정상 설치된 것입니다. `exit()`을 입력하여 빠져나옵니다.
 
 > python3
 
