@@ -40,7 +40,7 @@
 3. [CSS 스타일](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/CSS/Course03/)
 4. [CSS link, 상속](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/CSS/Course04/)
 5. [부트스트랩](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/CSS/Course05/)
-6. [CSS 추가 내용]()
+6. [CSS 추가 내용](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/CSS/Course06/)
 ## JavaScript
 1. [Firebase 시작하기](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Javascript/Course01/)
 2. [Javascript 소개](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Javascript/Course02/)
