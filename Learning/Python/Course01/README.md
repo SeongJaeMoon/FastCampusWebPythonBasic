@@ -3,45 +3,41 @@
 
 여기가지 잘 오셨다면 드디어 우리의 마지막 챕터인 파이썬 공부를 진행할 준비가 되었습니다! 새로운 챕터를 시작했으니, 새로운 마음가짐으로 공부를 계속 진행해주시면 좋겠습니다. :)
 
-내용이 조금 길기 때문에, 원하는 부분만 보길 원하시는 분은 아래 바로 가기를 눌러주세요!
+내용이 조금 길기 때문에, 원하는 부분만 보길 원하시는 분은 아래 바로가기를 눌러주세요!
 
-- 바로가기
+- 바로 가기
     - [윈도우 파이썬 설치](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course01/#windows-운영체제)
     - [맥 파이썬 설치](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course01/#mac-운영체제)
     - [VS Code 파이썬 확장 설치](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course01/#vs-code-확장공통)
     - [파이썬 가상 환경](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course01/#python-가상-환경)
     - [윈도우 가상환경 설치](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course01/#windows-가상-환경)
-    - [맥 가상환경 설치](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course01/#Mac-가상-환경)
+    - [맥 가상환경 설치](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course01/#mac-가상-환경)
     - [VS Code 인터프리터 모드 설정](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course01/#vs-code-인터프리터공통)
     - [파이썬 기본 문법](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course01/#python-기본-문법)
 
 ## Python 설치
 
-<p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/python.png" width="100%" height="70%">
-</p>
-
 ### Windows 운영체제
 우선, 파이썬 코딩을 진행하기 위해서 파이썬을 다운로드해야겠죠? [여기](https://www.python.org/downloads/)에 접속해서 파이썬을 OS에 맞게 다운로드해줍니다. 우리는 가장 최신 버전을 사용할 것이기 때문에 **3.7.0** 버전을 다운로드해줍니다. 파이썬을 다운로드하면, 파이썬을 비롯한 pip, IDLE 등 여러 가지가 함께 다운로드됩니다. 우리는 앞으로 `pip(Python Package Index)`를 이용해 각종 패키지를 관리하게 된다는 점, 참고로 기억해주세요!
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/install.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/install.JPG" width="100%" height="70%">
 </p>
 
 윈도우 OS를 사용하시는 분은 설치 마법사가 나타나면, `Add Python 3.7 to Path`를 체크하고, `Install Now`를 클릭해줍니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/install0.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/install0.JPG" width="100%" height="70%">
 </p>
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/install1.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/install1.JPG" width="100%" height="70%">
 </p>
 
 설치가 진행되고, 잠시 기다리면 설치가 완료됩니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/wpython0.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/wpython0.JPG" width="100%" height="70%">
 </p>
 
 파이썬이 정상적으로 설치되었는지 확인하기 위해서 명령 프롬프트를 실행하고, 아래 명령어를 입력합니다. `python 3.7.0` 버전이 나타나며 파이썬이 실행되면 정상 설치된 것입니다. `exti()`을 입력하여 빠져나옵니다.
@@ -52,7 +48,7 @@
 맥 OS를 사용하시는 분은 파이썬 설치 전에 선행해주셔야 할 것이 있습니다. (Xcode가 설치되어 있으시다면, 이 부분은 건너뛰고 바로 파이썬을 설치해주시면 됩니다.)
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/xcode1.png" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/xcode1.png" width="100%" height="70%">
 </p>
 
 터미널을 열고 아래 명령어를 실행합니다.
@@ -60,13 +56,13 @@
 > xcode-select --install
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/xcode3.png" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/xcode3.png" width="100%" height="70%">
 </p>
 
 위와 같이 설치 창이 나오면 설치를 눌러 설치를 진행합니다. 설치가 완료되면, 라이센스 동의를 클릭하고 완료합니다. (설치 시간이 일정 시간 이상 소요될 수 있습니다.) 
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/xcode2.png" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/xcode2.png" width="100%" height="70%">
 </p>
 
 터미널에서 아래 명령어를 입력해줍니다. `Installed Dir`이라는 설치 경로가 정상적으로 나오면 잘 설치가 된 것입니다. 아래 내용을 보시고 파이썬 설치를 계속 진행해주세요.
@@ -78,7 +74,7 @@
 간혹, 스토어가 아닌 곳에서 `pkg` 파일을 다운로드하고 설치 시 오류가 발생할 수가 있는데요, 이를 해결하기 위해서 `시스템 환경 설정` -> `보안 및 개인 정보` -> `일반` -> `다운로드한 응용 프로그램 허용`을 설정합니다. 만약, `다운로드한 응용 프로그램 허용`부분이 `Mac App Store`로 되어 있을 경우에 `Mac App Store 및 확인된 개발자`로 변경해주시면 됩니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/python1.png" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/python1.png" width="100%" height="70%">
 </p>
 
 파이썬이 정상적으로 설치되었는지 확인하기 위해서, 터미널을 열고 아래 명령어를 입력합니다. `python 3.7.0` 버전이 나타나며 파이썬이 실행되면 정상 설치된 것입니다. `exti()`을 입력하여 빠져나옵니다.
@@ -91,7 +87,7 @@
 위 단계까지 정상적으로 이루어지고 나면, VS Code로 파이썬 개발환경을 구성하기 위해서 Python 확장을 설치해야 합니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/python1.png" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/python1.png" width="100%" height="70%">
 </p>
 
 "마켓플레이스에서 확장 검색"란에 `Python`을 입력하고, 설치를 진행합니다. 설치가 완료되면, "다시 로드"를 클릭해줍니다. 
@@ -108,7 +104,7 @@
 **가상 환경을 구성하기 전에, 기존의 웹 개발 기초 과정에서 사용했던 폴더가 아닌, 새로운 파이썬 개발을 위한 프로젝트 폴더를 원하는 위치(경로)에 만들어주세요!**
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/terminal.png" width="70%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/terminal.png" width="70%" height="70%">
 </p>
 
 VS Code를 실행하고, 새로 생성한 프로젝트 폴더를 엽니다. 우리는 VS Code의 `통합 터미널`을 이용해 많은 작업을 진행하게 될 것입니다. 터미널이 보이지 않을 경우 위 사진처럼, 상단 메뉴에서 `보기 -> 통합 터미널`을 실행합니다.
@@ -117,7 +113,7 @@ VS Code를 실행하고, 새로 생성한 프로젝트 폴더를 엽니다. 우�
 > 윈도우: ctr + ~, 맥: cmd + ~
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/vscode1.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/vscode1.JPG" width="100%" height="70%">
 </p>
 
 우선 파이썬 코드를 실행할 준비가 되었는지 확인하기 위해서, 테스트 코드를 작성해보도록 하겠습니다. 테스트 폴더로 `code01` 폴더를 만들고, `main.py` 파일을 만들고, 아래 코드를 입력합니다. (파이썬 파일은 기본 확장자가 '*.py'입니다.)
@@ -134,7 +130,7 @@ VS Code를 실행하고, 새로 생성한 프로젝트 폴더를 엽니다. 우�
 이제 본격적으로 프로젝트 가상 환경을 구성해보도록 하겠습니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/vscode2.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/vscode2.JPG" width="100%" height="70%">
 </p>
 
 터미널에 아래 명령어를 입력합니다. `Successfully installed virtualenv-version`이 나오면 정상적으로 설치된 것입니다.
@@ -146,7 +142,7 @@ VS Code를 실행하고, 새로 생성한 프로젝트 폴더를 엽니다. 우�
 ### Windows 가상 환경
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/vscode4.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/vscode4.JPG" width="100%" height="70%">
 </p>
 
 터미널에 아래 명령어를 실행합니다. 아래 명령어를 실행하면, `.venv`라는 폴더가 생성되게 됩니다. 여기서 말하는 `.venv`는 가상환경 프로젝트를 말합니다. 통상적으로, `.venv`, `.env` 등의 이름으로 작성하게 되고, 변경해서 사용해도 괜찮습니다. 잠시 기다리면 설치가 완료됩니다.
@@ -154,7 +150,7 @@ VS Code를 실행하고, 새로 생성한 프로젝트 폴더를 엽니다. 우�
 > virtualenv -p python .venv
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/vscode5.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/vscode5.JPG" width="100%" height="70%">
 </p>
 
 이제 가상 환경을 실행 시키기 위해서 아래 명령어를 입력합니다. 명령어 가장 앞에있는 "."도 입력해주셔야 합니다!! 윈도우의 경우 `가상 환경 폴더명/Scripts/actviate` 위치에 가상 환경을 실행시킬 수 있는 파일이 있습니다. 터미널 라인 처음에 `(.venv)`가 생기면 정상 실행된 것입니다.
@@ -164,7 +160,7 @@ VS Code를 실행하고, 새로 생성한 프로젝트 폴더를 엽니다. 우�
 ### Mac 가상 환경
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/mvscode1.png" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/mvscode1.png" width="100%" height="70%">
 </p>
 
 터미널에 아래 명령어를 실행합니다. 아래 명령어를 실행하면, `.venv`라는 폴더가 생성되게 됩니다. 여기서 말하는 `.venv`는 가상환경 프로젝트를 말합니다. 통상적으로, `.venv`, `.env` 등의 이름으로 작성하게 되고, 변경해서 사용해도 괜찮습니다. 잠시 기다리면 설치가 완료됩니다.
@@ -173,7 +169,7 @@ VS Code를 실행하고, 새로 생성한 프로젝트 폴더를 엽니다. 우�
 
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/mvscode2.png" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/mvscode2.png" width="100%" height="70%">
 </p>
 
 이제 가상 환경을 실행 시키기 위해서 아래 명령어를 입력합니다. 명령어 가장 앞에있는 "."도 입력해주셔야 합니다!! 윈도우의 경우 `가상 환경 폴더명/bin/actviate` 위치에 가상 환경을 실행시킬 수 있는 파일이 있습니다. 터미널 라인 처음에 `(.venv)`가 생기면 정상 실행된 것입니다.
@@ -184,19 +180,19 @@ VS Code를 실행하고, 새로 생성한 프로젝트 폴더를 엽니다. 우�
 이제 VS Code의 인터프리터를 선택해야 합니다. 강의에서 말씀드렸듯이, 파이썬도 자바스크립트와 같이 인터프리터 모드로 동작하여 코드 실행 시에 한 줄 한 줄 코드를 해석하게 됩니다. VS Code 상에서 어떤 인터프리터(코드 해석기)를 사용할지 설정하는 작업이 필요한데요, 아래 내용을 보고 설정해주세요!
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/interpreter2.png" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/interpreter2.png" width="100%" height="70%">
 </p>
 
 먼저, VS Code의 명령 팔레트를 실행합니다. `(단축키, 윈도우: ctrl + shift + p, 맥: cmd + shift + p)` 명령 팔레트가 실행되면, 검색 창에 `Python`을 입력합니다. 하위 선택 메뉴 중에서 `Python: Select Interpreter`를 선택합니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/interpreter1.png" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/interpreter1.png" width="100%" height="70%">
 </p>
 
 경우에 따라서 여러 가지 파이썬 버전 정보가 나올 수 있는데요, 파이썬 버전 3.7.0 중에서 가상 환경이 실행된, `virtualenv`가 붙은 인터프리터를 선택합니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/deactivate.png" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/deactivate.png" width="100%" height="70%">
 </p>
 
 **(주의) 하나의 프로젝트에 가상 환경을 `activate` 명령어로 실행시키고, 다른 프로젝트로 가서 가상 환경을 실행할 경우엔, 기존의 가상 환경에서 `deactivate` 명령어를 입력하여 가상 환경을 먼저 종료시키고 실행시켜야 합니다!!**

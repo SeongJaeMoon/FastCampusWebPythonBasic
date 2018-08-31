@@ -9,43 +9,43 @@
 ### 자바 설치
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/java1.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/java1.JPG" width="100%" height="70%">
 </p>
 
 구글 검색 창에 `java`를 입력합니다. 가장 상단에 나오는 "무료 소프트웨어 다운로드"를 선택합니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/java2.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/java2.JPG" width="100%" height="70%">
 </p>
 
 경우에 따라서, 쿠키 설정 동의 요청 창이 나올 수가 있습니다. 모두 `예`를 클릭하고, `기본 설정 제출`을 클릭합니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/java3.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/java3.JPG" width="100%" height="70%">
 </p>
 
 `동의 및 무료 다운로드 시작`을 클릭해줍니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/java4.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/java4.JPG" width="100%" height="70%">
 </p>
 
 설치 마법사가 나오면 `설치`를 클릭하여 설치를 시작합니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/java6.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/java6.JPG" width="100%" height="70%">
 </p>
 
 잠시 기다리면, 설치가 진행됩니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/java7.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/java7.JPG" width="100%" height="70%">
 </p>
 
 만약, 기존의 구 버전 자바가 설치되었다면, 위와 같은 화면이 나오게 됩니다. `설치 해제`를 클릭해줍니다. (일정 시간 이상 소요될 수 있습니다.) 
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/java10.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/java10.JPG" width="100%" height="70%">
 </p>
 
 잠시 기다리면 자바 설치가 완료됩니다.
@@ -54,13 +54,13 @@
 우선, [여기](https://www.lfd.uci.edu/~gohlke/pythonlibs/#jpype)에 가셔서 `Jpype`를 로컬 저장소에 다운로드하여야 합니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/jpype1.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/jpype1.JPG" width="100%" height="70%">
 </p>
 
 여러 가지 버전이 존재하는데요, 그 중에서 `JPype1‑0.6.3‑cp37‑cp37m‑win32.whl`를 선택하고 다운로드 해줍니다. 저장 경로는 따로 특정 지을 필요는 없지만, 원할한 진행을 위해서 파이썬 개발을 위해 만들어둔 프로젝트 폴더를 지정하여 저장해줍니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/jpype2.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/jpype2.JPG" width="100%" height="70%">
 </p>
 
 VS Code 실행하고, 가상 환경을 실행합니다. (`. .venv/Scripts/activate`) 가상 한경이 실행되면, 아래 명령어를 입력합니다. 잠시기다리면, 설치가 완료됩니다!
@@ -74,7 +74,7 @@ VS Code 실행하고, 가상 환경을 실행합니다. (`. .venv/Scripts/activa
 `requests` 패키지는 웹 자원 요청을 위한 다양한 기능을 제공하는 패키지입니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/vscode7.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/vscode7.JPG" width="100%" height="70%">
 </p>
 
 아래 명령어를 입력해주세요.
@@ -85,7 +85,7 @@ VS Code 실행하고, 가상 환경을 실행합니다. (`. .venv/Scripts/activa
 `bs4` 패키지는 다양한 형식으로 웹 자원을 파싱(Parsing)하고, 분석할 수 있게 해주는 패키지입니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/vscode6.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/vscode6.JPG" width="100%" height="70%">
 </p>
 
 아래 명령어를 입력해주세요.
@@ -96,7 +96,7 @@ VS Code 실행하고, 가상 환경을 실행합니다. (`. .venv/Scripts/activa
 `openpyxl` 패키지는 엑셀 처리를 할 수 있는 패키지입니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/vscode8.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/vscode8.JPG" width="100%" height="70%">
 </p>
 
 아래 명령어를 입력해주세요.
@@ -107,7 +107,7 @@ VS Code 실행하고, 가상 환경을 실행합니다. (`. .venv/Scripts/activa
 `numpy` 패키지는 다양한 수학 관련 처리를 할 수 있는 패키지입니다. 강의에서 사용되는 패키지는 아니지만, `konlpy` 패키지 사용을 위해 필요합니다. (파이썬에서 자주 사용되는 패키지이므로, 설치해두면 두루두루 사용하는 경우가 생길 겁니다! :)
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/numpy.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/numpy.JPG" width="100%" height="70%">
 </p>
 
 아래 명령어를 입력해주세요.
@@ -119,7 +119,7 @@ VS Code 실행하고, 가상 환경을 실행합니다. (`. .venv/Scripts/activa
 `konlpy` 패키지는 한글 분석 및 처리를 할 수 있는 패키지입니다. 위의 `numpy` 패키지가 설치되지 않았다면, 에러가 발생할 수 있습니다. 설치 전에 `numpy` 패키지를 먼저 설치해주세요!
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/vscode9.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/vscode9.JPG" width="100%" height="70%">
 </p>
 
 아래 명령어를 입력해주세요.
@@ -138,7 +138,7 @@ print("안녕하세요.")
 ```
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Pyhton/Course01/static/import.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/import.JPG" width="100%" height="70%">
 </p>
 
 위 코드를 입력하고, 파일이 있는 경로에 들어갑니다. (`cd 경로`) 터미널에 `python main.py` 명령어를 입력합니다. 터미널에 에러 없이 "안녕하세요."가 잘 나오면 성공입니다!
