@@ -37,7 +37,7 @@
 설치가 진행되고, 잠시 기다리면 설치가 완료됩니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/wpython0.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/wpython.JPG" width="100%" height="70%">
 </p>
 
 파이썬이 정상적으로 설치되었는지 확인하기 위해서 명령 프롬프트를 실행하고, 아래 명령어를 입력합니다. `python 3.7.0` 버전이 나타나며 파이썬이 실행되면 정상 설치된 것입니다. `exti()`을 입력하여 빠져나옵니다.
@@ -87,7 +87,7 @@
 위 단계까지 정상적으로 이루어지고 나면, VS Code로 파이썬 개발환경을 구성하기 위해서 Python 확장을 설치해야 합니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/python1.png" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/vscode.JPG" width="100%" height="70%">
 </p>
 
 "마켓플레이스에서 확장 검색"란에 `Python`을 입력하고, 설치를 진행합니다. 설치가 완료되면, "다시 로드"를 클릭해줍니다. 
