@@ -58,10 +58,12 @@ document.querySelectorAll("css selector")|CSS 선택자 문법으로 찾은 여�
 ```
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Javascript/Course10/static/dom1.png" width="70%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Javascript/Course10/static/dom1.png" width="45%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Javascript/Course10/static/dom2.png" width="45%" height="70%">
 </p>
 
-index.html 코드를 실행하면 위 사진과 같이 나오게 됩니다. 아래 자바스크립트 코드는 index.html 코드의 요소에 접근하여 값을 변경하는 예시 코드입니다. 
+index.html 코드를 실행하면 위 왼쪽 사진과 같이 나오게 됩니다. 오른쪽 사진은 main.js 코드를 이용해 HTML 엘리먼트를 동적으로 변화시킨 사진입니다. 하나하나 알아보겠습니다.
+
 - main.js
 ```javascript
 //1번 코드
@@ -75,11 +77,7 @@ document.getElementsByName("pw")[0].value = "name 속성으로 접근";
 //5번 코드
 document.querySelectorAll("div#head2 > p.test")[0].innerHTML = "선택자 문법으로 접근";
 ```
-<p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Javascript/Course10/static/dom2.png" width="70%" height="70%">
-</p>
 
-위 사진은 main.js 코드를 이용해 HTML 엘리먼트를 동적으로 변화시킨 사진입니다. 하나하나 알아보겠습니다.
 
 - 1번 코드는 `아이디 속성이 head1`인 요소를 찾아서 콘텐츠를 변경하는 코드입니다.
 - 2번 코드는 `<p>`태그를 찾아서 가장 첫 번째로 찾은 요소의 콘텐츠를 변경하는 코드입니다.
