@@ -4,7 +4,7 @@
 아직 파이썬 설치와 가상 환경 설정이 이루어지지 않으신 분은 [여기](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course01/)에 접속하셔서, 참고 자료를 보며 파이썬 설치 및 가상 환경 설정을 먼저 진행해주세요! 아울러, 강의에서 다루지 않는 [Python 기본 문법](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course01/#python-기본-문법) 부분도 확인부탁드립니다!
 
 ## Windows 운영체제
-윈도우 운영체를 사용하시는 분은 아래 패키지를 설치하기 전에 `java`와 `JPype`를 설치해주셔야 합니다. 맥 운영체제를 사용하시는 분은 이 부분은 건너뛰셔도 됩니다.
+윈도우 운영체를 사용하시는 분은 아래 패키지를 설치하기 전에 `java`와 `JPype`를 설치해주셔야 합니다. 맥 운영체제를 사용하시는 분은 이 부분은 건너뛰고 바로 [패키지 설치](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course01/task/#패키지-설치)를 진행하시면 됩니다.
 
 ### 자바 설치
 
