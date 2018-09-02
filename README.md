@@ -3,13 +3,11 @@
 웹 개발 기초 ~ 파이썬을 이용한 크롤러 개발 [온라인 강의](http://www.fastcampus.co.kr/dev_online_introdev/) 자료
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/oline-dev.png" width="60%" height="50%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/oline-dev.png" width="35%" height="35%">
 </p>
 
 # 저장소 이용 방법 
-
 ## 각 강의 별로 code, task, static 형식의 폴더로 저장합니다.
-
 ### 1. README.md
 > 각 강의마다 필요한 심화 내용 및 도움이 될 수 있는 내용들을 정리해서 올려드립니다.
 ### 2. code 폴더
@@ -75,9 +73,9 @@
 13. [Python 크롤러3 - 데이터 추출](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course13/)
 14. [Python 크롤러4 - 데이터 분석 및 저장](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course14/)
 
-**참고 출처**
-- [w3schools.com](https://www.w3schools.com/)
-- [docs.python.org 3.7](https://docs.python.org/3.7/tutorial/index.html)
-- [docs.python-guide](https://docs.python-guide.org/)
+- 참고 출처
+    - [w3schools.com](https://www.w3schools.com/)
+    - [docs.python.org 3.7](https://docs.python.org/3.7/tutorial/index.html)
+    - [docs.python-guide](https://docs.python-guide.org/)
 
 
