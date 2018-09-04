@@ -12,7 +12,7 @@ num_dict = sorted(num_dict.values()) # 값을 정렬하고, 정렬된 결과를 
 print(num_dict) # [1, 2, 3, 4, 5]
 
 # 내림 차순 정렬
-num_list.sort(reverse = True) # 값을 정렬만 하고, 반환 값이 없습니다.
+num_list.sort(reverse = True) # 값을 정렬만 하고, 반환 값이 없습니다. (같은 표현, num_list.reverse())
 num_list = sorted(num_list, reverse = True) # 값을 정렬하고, 정렬된 결과를 반환합니다.
 print(num_list) # [5, 4, 3, 2, 1]
 

@@ -2,13 +2,15 @@ from time import time
 from random import sample
 
 # 삽입 정렬
-def insertion_sort(num_list):
-    for i in range(len(num_list)):
-        key = i 
-        while key > 0 and num_list[key - 1] < num_list[key]: 
-            num_list[key - 1], num_list[key] = num_list[key], num_list[key - 1]
-            key -= 1
-    return num_list
+def insert_sort(num_list):
+	for i in range(1, len(x)):
+		j = i - 1
+		key = x[i]
+		while x[j] > key and j > 0:
+			x[j+1]  = x[j]
+			j = j - 1
+		x[j+1] = key
+	return x
 
 # 분할 -> 정렬할 요소를 작은 단위로 쪼개는 작업입니다.
 def merge_sort(num_list):

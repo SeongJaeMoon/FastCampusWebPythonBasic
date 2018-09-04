@@ -1,7 +1,7 @@
 # background 이미지 사용하기
 키워드 : [background 이미지](https://www.w3schools.com/cssref/pr_background-image.asp), [full 페이지](https://www.w3schools.com/howto/howto_css_full_page.asp)
 
-CSS에 대한 전반적인 내용의 이해를 가지고 약간의 CSS 응용을 해보도록 하겠습니다. 결론적으로 이미지 풀 페이지라는 것을 만들어 보겠습니다. 
+CSS에 대한 전반적인 내용의 이해를 가지고 약간의 CSS 응용을 해보도록 하겠습니다. 결론부터 말씀드리면, 우리는 이미지 풀 페이지라는 것을 만들어 볼 것입니다. 
 
 우선, 이미지를 활용해 풀 페이지를 구성한 사이트를 한 번 살펴보겠습니다. 아마 보시면 바로 "아~" 하실 거라 생각됩니다.
 

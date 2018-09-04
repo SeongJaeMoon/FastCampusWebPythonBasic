@@ -4,7 +4,7 @@
 아직 파이썬 설치와 가상 환경 설정이 이루어지지 않으신 분은 [여기](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course01/)에 접속하셔서, 참고 자료를 보며 파이썬 설치 및 가상 환경 설정을 먼저 진행해주세요! 아울러, 강의에서 다루지 않는 [Python 기본 문법](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course01/#python-기본-문법) 부분도 확인부탁드립니다!
 
 ## Windows 운영체제
-윈도우 운영체를 사용하시는 분은 아래 패키지를 설치하기 전에 `java`와 `JPype`를 설치해주셔야 합니다. 맥 운영체제를 사용하시는 분은 이 부분은 건너뛰고 바로 [패키지 설치](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course01/task/#패키지-설치)를 진행하시면 됩니다.
+윈도우 운영체제를 사용하시는 분은 아래 패키지를 설치하기 전에 `java`와 `JPype`를 설치해주셔야 합니다. 맥 운영체제를 사용하시는 분은 이 부분은 건너뛰고 바로 [패키지 설치](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course01/task/#패키지-설치)를 진행하시면 됩니다.
 
 ### 자바 설치
 
@@ -68,7 +68,7 @@ VS Code 실행하고, 가상 환경을 실행합니다. (`. .venv/Scripts/activa
 > pip install JPype1‑0.6.3‑cp37‑cp37m‑win32.whl
 
 ## 패키지 설치
-우리 강의의 최종 목표인 파이썬 크롤러 개발을 위해 기존의 만들어진 여러 라이브러리를 활용합니다. 많은 패키지가 있지만, 원활한 진행을 위해 아래 패키지를 설치해주세요! (가상 환경이 실행되어 있지 않다면, 패키지를 설치하기 전에, 가상 환경을 실행해주세요.)
+우리 강의에 최종 목표인 파이썬 크롤러 개발을 위해서, 우리는 기존에 잘 만들어진 여러 패키지를 활용합니다. 같은 기능을 할 수 있는 많은 패키지가 있지만, 원활한 진행을 위해 아래 패키지를 설치해주세요! (가상 환경이 실행되어 있지 않다면, 패키지를 설치하기 전에, 가상 환경을 실행해주세요.)
 
 ### requests
 `requests` 패키지는 웹 자원 요청을 위한 다양한 기능을 제공하는 패키지입니다.

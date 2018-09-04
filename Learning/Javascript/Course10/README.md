@@ -28,6 +28,7 @@ document.getElementsByClassName("class")|class 속성으로 여러 요소 반환
 document.getElementsByTagName("tag")|태그명으로 여러 요소 반환
 document.getElementsByName("name")|name 속성으로 여러 요소 반환
 document.querySelectorAll("css selector")|CSS 선택자 문법으로 찾은 여러 요소 반환
+
 위 메서드와 `innerHTML` 속성을 이용하여 특정 요소의 내용을 변경하거나 가져올 수 있습니다.
 
 아래는 자바스크립트 코드를 이용해 요소에 접근하여 콘텐츠를 가져오는 코드 예시입니다. 
