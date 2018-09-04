@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)https://www.filepicker.io/dialog/comm_iframe/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+</head>
+<body>
+    <script>
+	function sendMessage(message, domain) {
+        if (typeof message === "object") {
+            message = JSON.stringify(message);
+        }
+		window.parent.postMessage(message, domain);
+	}
+	document.cookie="testcookie"
+	cookieEnabled=(document.cookie.indexOf("testcookie")!=-1)? true : false
+	sendMessage(window.JSON.stringify({'type': 'ThirdPartyCookies', 'payload' : cookieEnabled, 'id': 'cookies'}), '*');
+    //We use localstorage as a fallback wherever possible
+    try{
+        if ('localStorage' in window && window['localStorage'] !== null) {
+            var index = 0;
+            window.localStorage.setItem("fp-message-ready", true);
+            //We run the risk of wiping over stuff we want that was set before we were ready, but
+            //this is less likely than us not clearing the queue between pageloads (onunload is not the most reliable)
+            //and serving up stale data
+            window.localStorage.setItem("fp-message-queue", "[]");
+            var localTimer = window.setInterval(function(){
+                    var queue = window.localStorage.getItem("fp-message-queue");
+                    queue = queue ? JSON.parse(queue) : [];
+                    while (index < queue.length) {
+                    sendMessage(queue[index], "*");
+                    index++;
+                    }
+                    }, 200);
+            //Cleanup
+            window.onbeforeunload = window.onunload = function(){
+                window.localStorage.removeItem("fp-message-queue");
+                window.localStorage.removeItem("fp-message-ready");
+            }
+        }
+    } catch(e) {
+        //Swallowing exception. This is bad behavior, but we don't want to have errors show up in the logs of customer sites,
+        //so leave for now. If you need to debug, uncomment this line:
+        //console.error(e);
+    }
+    </script>
+
+
+</body></html>
