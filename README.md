@@ -66,7 +66,7 @@
 6. [Python 문자열 처리](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course06/)
 7. [Python 함수](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course07/)
 8. [Python 예외 처리](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course08/)
-9. [Python 엑셀 처리](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course009/)
+9. [Python 엑셀 처리](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course09/)
 10. [Python 말뭉치 처리](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course10)
 11. [Python 크롤러1 - 웹 사이트 분석](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course11/)
 12. [Python 크롤러2 - BeautifulSoup, requests](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course12/)
