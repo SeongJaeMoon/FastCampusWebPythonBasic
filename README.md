@@ -27,7 +27,7 @@
 2. [HTML 구조](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/HTML/Course02/)
 3. [HTML 관계](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/HTML/Course03/)
 4. [HTML 속성](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/HTML/Course04/)
-5. [블럭, 인라인 엘리먼트](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/HTML/Course05/)
+5. [블록, 인라인 엘리먼트](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/HTML/Course05/)
 6. [table, ul 태그](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/HTML/Course06/)
 7. [정적 자원](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/HTML/Course07/)
 8. [GET과 POST](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/HTML/Course08/)

@@ -1,5 +1,5 @@
-# 블럭, 인라인 엘리먼트
-키워드 : [블럭 엘리먼트](https://www.w3schools.com/html/html_blocks.asp), [인라인 엘리먼트](https://www.w3schools.com/html/html_blocks.asp)
+# 블록, 인라인 엘리먼트
+키워드 : [블록 엘리먼트](https://www.w3schools.com/html/html_blocks.asp), [인라인 엘리먼트](https://www.w3schools.com/html/html_blocks.asp)
 
 HTML 엘리먼트는 대표적인 특징에 따라 크게 두 가지로 나눠볼 수 있습니다. 바로, 블록(Block-level Element)과 인라인(Inline-level Element)으로 나눌 수 있습니다.
 

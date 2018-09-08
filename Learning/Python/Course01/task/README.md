@@ -57,13 +57,13 @@
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/jpype1.JPG" width="100%" height="70%">
 </p>
 
-여러 가지 버전이 존재하는데요, 그 중에서 `JPype1‑0.6.3‑cp37‑cp37m‑win32.whl`를 선택하고 다운로드 해줍니다. 저장 경로는 따로 특정 지을 필요는 없지만, 원할한 진행을 위해서 파이썬 개발을 위해 만들어둔 프로젝트 폴더를 지정하여 저장해줍니다.
+여러 가지 버전이 존재하는데요, 그중에서 `JPype1‑0.6.3‑cp37‑cp37m‑win32.whl`를 선택하고 다운로드해줍니다. 저장 경로는 따로 특정 지을 필요는 없지만, 원활한 진행을 위해서 파이썬 개발을 위해 만들어둔 프로젝트 폴더를 지정하여 저장해줍니다.
 
 <p align="center">
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/jpype2.JPG" width="100%" height="70%">
 </p>
 
-VS Code 실행하고, 가상 환경을 실행합니다. (`. .venv/Scripts/activate`) 가상 한경이 실행되면, 아래 명령어를 입력합니다. 잠시기다리면, 설치가 완료됩니다!
+VS Code 실행하고, 가상 환경을 실행합니다. (`. .venv/Scripts/activate`) 가상 한경이 실행되면, 아래 명령어를 입력합니다. 잠시 기다리면, 설치가 완료됩니다!
 
 > pip install JPype1‑0.6.3‑cp37‑cp37m‑win32.whl
 
