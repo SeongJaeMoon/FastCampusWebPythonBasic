@@ -38,4 +38,4 @@ up = list(filter(lambda x:x > 2, rand))
 print(up) # [9, 8, 6]
 
 division = list(map(lambda x:x / 2, rand))
-print(division) # 4.5, 4.0, 3.0, 1.0, 0.5]
+print(division) # [4.5, 4.0, 3.0, 1.0, 0.5]
