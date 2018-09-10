@@ -17,7 +17,6 @@ def get_rank(random_list):
     result = sorted(result.items(), key = lambda x:x[1], reverse = True)
     return result
 
-
 '''
 코드 실행 예
 세종(5)

@@ -10,3 +10,5 @@ for i in ok.pos(test):
 test = "패스트캠퍼스 패캠 문성재 코딩 프로그래밍"
 for i in ok.nouns(test):
     print(i)
+
+    
