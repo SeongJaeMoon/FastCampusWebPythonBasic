@@ -159,7 +159,7 @@ if __name__ == "__main__":
 
 우선, 워드 클라우드를 그릴때, 한글의 경우 깨지는 현상이 발생할 수 있습니다. 이를 해결하기 위해 한글을 나타낼 수 있는 폰트를 정해주어야 합니다. 윈도의 경우 `C:\Windows\Fonts`, 맥의 경우엔 `/Library/Fonts/`에 컴퓨터에서 사용할 수 있는 폰트가 저장되어 있습니다. 위 코드 예시의 경우 나눔고딕 폰트를 사용하였습니다.
 
-컴퓨터에 나눔고딕 폰트가 설치되어 있지 않으시다면, [여기](https://hangeul.naver.com/download.nhn)에 가서 위 경로에 저장해주시면 됩니다.
+컴퓨터에 나눔고딕 폰트가 설치되어 있지 않으시다면, [여기](https://hangeul.naver.com/download.nhn)에 접속하셔서, 한글 폰트를  위 경로에 저장해주시면 됩니다.
 
 > wc = WordCloud(font_path = PATH, background_color = 'white', width = 800, height = 600)
 
