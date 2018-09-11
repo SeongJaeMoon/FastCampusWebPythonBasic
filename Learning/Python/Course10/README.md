@@ -5,7 +5,7 @@
 
 한글의 말뭉치는 국립국어원에서 실행한 세종 프로젝트를 통해서 만들어진 [세종 말뭉치](https://ithub.korean.go.kr/user/guide/corpus/guide1.do)라는 것이 가장 대표적으로 활용되는 말뭉치입니다. 세종 말뭉치는 형태소 단위로 한글을 분리하여, 분석할 수 있도록 미리 작성된 표본 집합입니다. 참고로, 한국어의 감성 분석을 위해 [KOSAC](http://word.snu.ac.kr/kosac/)과 같은 언어 표본 집합 등도 많이 존재합니다. 
 
-이러한 한글 말뭉치를 통해 한글을 분석할 수 있는 파이썬 패키지가 많이 존재합니다. 그중에서, 주요 다섯 개의 한글 말뭉치 처리 파이썬 패키지를 하나로 모아 사용자가 쉽게 사용할 수 있도록 만든 파이썬 패키지가 바로, 우리가 강의에서 사용한 [konlpy("코엔엘파이")](http://konlpy.org/ko/latest/)입니다. 아직 `konlpy` 패키지 설치가 완료되지 않으셨다면, [여기](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course01/task)에 접속하셔서, 파이썬 패키지 설치를 먼저 진행해주세요!
+이러한 한글 말뭉치를 통해 한글을 분석할 수 있는 파이썬 패키지가 많이 존재합니다. 그중에서, 주요 다섯 개의 한글 말뭉치 처리 파이썬 패키지를 하나로 모아 사용자가 쉽게 사용할 수 있도록 만든 파이썬 패키지가 바로, 우리가 강의에서 알아본 [konlpy("코엔엘파이")](http://konlpy.org/ko/latest/)입니다. 아직 `konlpy` 패키지 설치가 완료되지 않으셨다면, [여기](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course01/task)에 접속하셔서, 파이썬 패키지 설치를 먼저 진행해주세요!
 
 포함되어 있는 여러 가지의 파이썬 한글 말뭉치 분석 패키지 중에서 우리는, [Okt(Open Korean Text)](https://github.com/open-korean-text/open-korean-text)라는 트위터에서 개발하고, 오픈 소스로 공개되어 있는 패키지를 이용합니다. 이번 장에서는 해당 패키지를 이용해 간단한 **문자열 집합 안에서 문자의 출현 빈도를 계산**하는 예시를 코드와 함께 알아보도록 하겠습니다.
 ```python
