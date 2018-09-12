@@ -70,7 +70,7 @@ HTML은 HyperText Markup Language의 약자로 우리가 웹 페이지 상에 �
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/HTML/Course01/static/run2.png" width="70%" height="70%">
 </p>
 
-두 번째 방법은 명령 팔레트를 통해 실행하는 방법입니다. 명령 팔레트를 실행하고 Live Server라고 입력하면 "Open with Live Server"가 나타납니다.
+두 번째 방법은 명령 팔레트를 통해 실행하는 방법입니다. 명령 팔레트를 실행하고 Live Server라고 입력하면, "Open with Live Server"가 나타납니다.
 
 **명령 팔레트 단축키**
 
