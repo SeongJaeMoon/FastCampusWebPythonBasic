@@ -68,13 +68,13 @@ if __name__ == "__main__":
 위 코드에서 추가된 `div` 요소를 찾는 코드를 통해서, 하나의 페이지 안의 모든 제목과 초록을 받아옵니다. 하지만, 여전히 받아온 웹 자원 안에는, 원치 않는 자원들이 많이 있습니다. 개발자 도구를 한 번 더 살펴보겠습니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course13/static/a.png" width="45%" height="100%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course13/static/a.png" width="100%" height="100%">
 </p>
 
 우선 제목을 나타내는 태그를 확대한 사진입니다. `title` 속성 값이 `상세화면`인 `a` 태그의 콘텐츠인 것을 확인할 수 있습니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course13/static/p.png" width="45%" height="100%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course13/static/p.png" width="100%" height="100%">
 </p>
 
 다음으로, 초록을 나타내는 태그를 확대한 사진입니다. `class` 속성 값이 `box_st1`인 `div` 태그의 자식인 `p` 태그 안에 콘텐츠인 것을 확인할 수 있습니다.
@@ -113,7 +113,7 @@ if __name__ == "__main__":
 
 다른 하나는, `a_tag`의 값을 출력할 때 문자열 메서드인 `replace` 메서드의 사용 이유입니다. 위 코드를 `replace` 메서드 없이 실행할 경우에 엔터와 탭 등이 포함된 형태로 나타나게 됩니다. 그렇기 때문에, 줄 바꿈과 탭에 해당하는 이스케이프 문자를 공백 처리하는 코드를 추가한 것입니다.
 
-위 코드를 실행하면, 아래와 같이 크롤링 원하는 콘텐츠만 추출해서 출력됩니다.
+위 코드를 실행하면, 아래와 같이 크롤링이 진행되며, 동시에 원하는 콘텐츠만 추출해서 출력됩니다.
 
 <p align="center">
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course13/static/content.gif" width="100%" height="100%">
@@ -121,4 +121,4 @@ if __name__ == "__main__":
 
 이번 장에서는 불러온 웹 자원 중에 원하는 콘텐츠만 추출하는 코드를 작성해보았습니다. 사실, 다른 사람이 작성한 HTML, CSS 구조로 되어 있는 웹 사이트를 분석하여 내가 원하는 콘텐츠만 추출하는 작업은 쉬운 작업은 아닙니다. 
 
-하지만, 내용이 어렵다기보다는 아직 익숙하지 않기 때문에 그런 부분이 더 클 것입니다. HTML과 CSS 구조에 대해서는 이미 웹 개발 기초 시간에 공부를 했기 때문에, 조금만 연습하다 보면 원하는 콘텐츠를 추출하기 위한 코드를 작성하실 수 있을 겁니다!
+하지만, 내용이 어렵다기보다는 아직 익숙하지 않기 때문에 그런 부분이 더 클 것입니다. HTML과 CSS 구조에 대해서는 이미 웹 개발 기초 시간에 공부를 했기 때문에, 조금만 연습하다 보면 원하는 콘텐츠를 추출하기 위한 코드를 작성하실 수 있을 겁니다! :)
