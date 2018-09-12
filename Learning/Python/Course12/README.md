@@ -1,5 +1,5 @@
 # Python 크롤러2 - BeautifulSoup, requests
-키워드 : [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), [requests](http://docs.python-requests.org/en/master/)
+키워드 : [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), [requests](http://docs.python-requests.org/en/master/), [웹 크롤러](https://ko.wikipedia.org/wiki/%EC%9B%B9_%ED%81%AC%EB%A1%A4%EB%9F%AC)
 
 [지난 내용](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course11/)에 이어서 파이썬 크롤러 개발 두 번째 내용을 정리해보도록 하겠습니다. 크롤링을 위해 사용할 수 있는 패키지는 굉장히 다양하지만, 우리는 `BeautifulSoup`, `requests` 두 가지 패키지를 중심으로 다룰 것이기 때문에, 위 두 패키지를 기준으로 계속 진행하도록 하겠습니다.
 
@@ -30,15 +30,15 @@ headers = {
 }
 r = requests.get('https://www.fastcampus.co.kr/dev_online_introdev/', headers=headers)
 ```
-웹 자원을 요청할 때, 헤더 정보도 함께 담아서 요청할 수 있는데요. `HTTP`에 대해서 이야기할 때, 헤더에 대해서 잠시 언급한 적이 있습니다. 우선 개발자 도구를 통해 구글 사이트의 요청 헤더 정보를 확인해보도록 하겠습니다.
+웹 자원을 요청할 때, 헤더 정보도 함께 담아서 요청할 수 있는데요, `HTTP`에 대해서 이야기할 때, 헤더에 대해서 잠시 언급한 적이 있습니다. 우선, 개발자 도구를 통해 구글 사이트의 요청 헤더 정보를 확인해보도록 하겠습니다.
 
 <p align="center">
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course12/static/header.png" width="100%" height="100%">
 </p>
 
-우리는 요청하는 측이기 때문에, `Request Headers` 부분을 봐주시면 됩니다. 이 헤더 정보에는 `User-Agent`라는 기기 정보와 브라우저 정보를 담는 부분이 있습니다.
+`Network` 탭의 가장 상단부 URL을 클릭합니다. 우리는 요청하는 측이기 때문에, `Request Headers` 부분을 봐주시면 됩니다. 이 헤더 정보에는 `User-Agent`라는 기기 정보와 브라우저 정보를 담는 부분이 있습니다.
 
-우리가 크롤링을 통해 웹 자원을 요청하면, 기존의 브라우저가 아닌 프로그램 코드를 통해서 요청하는 것이 됩니다. 몇몇 웹 사이트는 이 부분을 해석해서 정상적인 브라우저를 통해 보는 것이 아닌, 크롤링을 위한 독립적인 프로그램인 것을 확인하고 걸러내는 경우가 있습니다. 이러한 경우에 `headers`라는 이름 있는 인자에 `User-Agent` 값을 마찬가지로 딕셔너리 형태로 만들어 전송해줘야 합니다.
+우리가 크롤링을 통해 웹 자원을 요청하면, 기존의 브라우저가 아닌 프로그램 코드를 통해서 요청하는 것이 됩니다. 몇몇 웹 사이트는 이 부분을 해석하여 정상적인 브라우저가 아니라 크롤링을 위한 독립적인 프로그램인 것을 확인하고, 걸러내는 경우가 있습니다. 이러한 경우에 `headers`라는 이름 있는 인자에 `User-Agent` 값을 마찬가지로 딕셔너리 형태로 만들어 전송해줘야 합니다.
 
 ## BeautifulSoup
 요청한 웹 자원이 정상적으로 잘 돌아오면, 불러온 웹 자원을 우리가 분석하기 용이한 HTML 문서로 파싱(Parsing)하는 작업이 필요합니다. HTML 문서를 파싱하고 분석하기 위한 `BeautifulSoup` 패키지의 몇 가지 주요 내용에 대해서 살펴보도록 하겠습니다.
@@ -93,7 +93,7 @@ URL = "http://www.ndsl.kr/ndsl/search/list/article/articleSearchResultList.do?pa
 def get_link():
     for page in range(1, 11):
         req = requests.get(URL.format(str(page)))
-        soup = bs(req.content, 'html.parser')
+        soup = bs(req.text, 'html.parser')
         print(soup)
 
 if __name__ == "__main__":
