@@ -105,7 +105,7 @@ if __name__ == "__main__":
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course12/static/get.gif" width="100%" height="100%">
 </p>
 
-위 코드에서 한 가지 주의할 점이 있습니다. 위 `URL`은 현재 `http`로 시작하고 있습니다. 만약, `requests` 모듈을 이용하여 `https` 프로토콜의 웹 자원을 요청할 시에는 `SSLError`라는 에러가 발생할 수 있습니다. 이런 경우 `get` 메서드의 인자로 `verify=False`라는 것을 추가로 입력해야 합니다. (`e.g., requests.get(URL.format(str(page)), verify=False)`)
+위 코드에서 한 가지 주의할 점이 있습니다. 위 `URL`은 현재 `http`로 시작하고 있습니다. 만약, `requests` 모듈을 이용하여 `https` 프로토콜의 웹 자원을 요청할 시에는 `SSLError`라는 에러가 발생할 수 있습니다. 이런 경우 `get` 메서드의 인자로 `verify=False`라는 것을 추가로 입력해야 합니다. (`e.g., requests.get(URL.format(str(page)), verify=False)
 
 위에서 모두 다루지 못한 `requests` 패키지에 대한 더 자세한 설명은 [여기](http://docs.python-requests.org/en/master/user/quickstart/#make-a-request)를 참고해주시고, `BeautifulSoup`와 관련된 더 자세한 설명은 [여기](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)를 참고 부탁드립니다. 
 
