@@ -50,6 +50,35 @@
 
 잠시 기다리면 자바 설치가 완료됩니다.
 
+## JAVA_HOME 설정
+
+자바 설치가 완료되면, JAVA_HOME 설정을 진행해야 합니다. 우선, java 설치 파일의 경로를 확인합니다.
+
+<p align="center">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/sp0.JPG" width="100%" height="70%">
+</p>
+
+ 보통, 자바를 처음 설치하면 자동으로 C 드라이브에 ProgramFiles 폴더 밑에 java 파일이 설치됩니다. 해당 경로에 접속하면, "jre_버전" 형태로 폴더가 존재합니다. 해당 폴더에 접속하여 `bin` 폴더를 찾고, `bin` 폴더의 하위 폴더인 `server` 폴더를 찾습니다. `jvm.dll`이라는 파일이 존재해야 하며, 해당 폴더의 경로를 클립보드에 복사합니다. (`e.g., C:\Program Files\Java\jre1.8.0_181\bin\server`) 다음으로, 윈도 탐색기에 `시스템 환경 변수`를 입력하면 환경 변수를 설정할 수 있는 선택 메뉴가 나타납니다. 클릭해줍니다. 
+
+<p align="center">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/sp1.JPG" width="100%" height="70%">
+</p>
+
+시스템 속성 창이 나타나면, "환경 변수"를 클릭해줍니다. 
+
+<p align="center">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/sp2.JPG" width="100%" height="70%">
+</p>
+
+하단의 시스템 변수 설정 부분에서 "새로 만들기"를 클릭합니다. 
+
+
+<p align="center">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/sp3.JPG" width="100%" height="70%">
+</p>
+
+새 시스템 변수 창이 나타나면, 변수 이름을 "JAVA_HOME"이라고 작성하고, 변수 값을 앞서 복사한 `jre/bin/server` 폴더 경로를 붙여 넣기 합니다. 입력이 완료되면, 모두 확인을 누르고 빠져나옵니다. 
+
 ### Jpype 설치
 우선, [여기](https://www.lfd.uci.edu/~gohlke/pythonlibs/#jpype)에 가셔서 `Jpype`를 로컬 저장소에 다운로드하여야 합니다.
 
