@@ -18,7 +18,15 @@
 ## Python 설치
 
 ### Windows 운영체제
-우선, 파이썬 코딩을 진행하기 위해서 파이썬을 다운로드해야겠죠? [여기](https://www.python.org/downloads/)에 접속해서 파이썬을 OS에 맞게 다운로드해줍니다. 우리는 가장 최신 버전을 사용할 것이기 때문에 **3.7.0** 버전을 다운로드해줍니다. 파이썬을 다운로드하면, 파이썬을 비롯한 pip, IDLE 등 여러 가지가 함께 다운로드됩니다. 우리는 앞으로 `pip(Python Package Index)`를 이용해 각종 패키지를 관리하게 된다는 점, 참고로 기억해주세요!
+우선, 파이썬 코딩을 진행하기 위해서 파이썬을 다운로드해야겠죠? [여기](https://www.python.org/downloads/)에 접속해서 파이썬을 OS에 맞게 다운로드해줍니다. 우리는 가장 최신 버전을 사용할 것이기 때문에 **3.7.0** 버전을 다운로드해줍니다.
+
+<p align="center">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/pythone.png" width="100%" height="70%">
+</p>
+
+파이썬 설치시에 파이썬 설치 버전은 윈도 32 비트를 사용하시는 경우에는 `x86 executable installer`를, 윈도 64 비트 머신을 사용하시는 경우에는 `x86-64 executable installer`를 설치합니다.
+
+파이썬을 다운로드하면, 파이썬을 비롯한 pip, IDLE 등 여러 가지가 함께 다운로드됩니다. 우리는 앞으로 `pip(Python Package Index)`를 이용해 각종 패키지를 관리하게 된다는 점, 참고로 기억해주세요!
 
 <p align="center">
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/install.JPG" width="100%" height="70%">
