@@ -16,6 +16,14 @@ CSS 코드를 작성해서 엘리먼트에 스타일을 적용하는 방법은 �
 Inilne 방식 선언의 예.
 
 ```html
+    <!-- html head section-->
+    <Element style="color: black;">콘텐츠<Element>
+```
+
+Internal 방식 선언의 예.
+
+```html
+    <!-- css file -->
     <style>
         p {
             color: black;
@@ -23,7 +31,7 @@ Inilne 방식 선언의 예.
     </style>
 ```
 
-Internal 방식 선언의 예.
+External 방식 선언의 예.
 
 ```html
     <!-- css file -->
@@ -32,8 +40,6 @@ Internal 방식 선언의 예.
     <!-- html head section-->
     <link rel="stylesheet" type="text/css" href="css 파일 주소(위치)">
 ```
-
-External 방식 선언의 예.
 
 ## CSS 스타일 상속
 
