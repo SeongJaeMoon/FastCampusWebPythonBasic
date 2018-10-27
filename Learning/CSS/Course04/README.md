@@ -9,15 +9,11 @@ CSS 코드를 작성해서 엘리먼트에 스타일을 적용하는 방법은 �
 
 일반적으로 각각의 단위는 Inline, Internal, External 방식 등으로 선언한다고 합니다.
 
-```html
-    <p style="color:black;">p태그</p>
-```
-
 Inilne 방식 선언의 예.
 
 ```html
     <!-- html head section-->
-    <Element style="color: black;">콘텐츠<Element>
+    <p style="color:black;">p태그</p>
 ```
 
 Internal 방식 선언의 예.
