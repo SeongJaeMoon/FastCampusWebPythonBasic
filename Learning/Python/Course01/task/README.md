@@ -71,29 +71,30 @@
 보통, 자바를 처음 설치하면 자동으로 C 드라이브에 ProgramFiles 폴더 밑에 java 파일이 설치됩니다. 해당 경로에 접속하면, "jdk_버전", "jre_버전" 형태로 폴더가 존재합니다. jdk_버전 폴더에 접속하여 `bin` 폴더를 찾습니다. 해당 폴더의 경로를 클립보드에 복사합니다. (`e.g., C:\Program Files\Java\jdk1.8.0_181\bin`) 다음으로, 윈도 탐색기에 `시스템 환경 변수`를 입력하면 환경 변수를 설정할 수 있는 선택 메뉴가 나타납니다. 클릭해줍니다. 
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/sp1.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/sp1.JPG" width="70%" height="50%">
 </p>
 
 시스템 속성 창이 나타나면, "환경 변수"를 클릭해줍니다. 
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/sp2.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/sp2.JPG" width="70%" height="50%">
 </p>
 
 하단의 시스템 변수 설정 부분에서 "새로 만들기"를 클릭합니다. 
 
-
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/jdk3.jpeg" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/jdk3.jpeg" width="70%" height="50%">
 </p>
 
 새 시스템 변수 창이 나타나면, 변수 이름을 `JAVA_HOME`이라고 작성하고, 변수 값을 앞서 복사한 `java/jdk버전/bin` 폴더 경로를 붙여 넣기 합니다. 입력이 완료되면, 모두 확인을 누르고 빠져나옵니다. 
 
+* 윈도 10 이하 버전(7 or 8)을 사용하시는 분은 `JAVA_HOME` 변수 부분에 `java/jdk버전` 까지만 입력하고 확인을 누릅니다. 다음으로, 시스템 변수의 변수 이름이 `Path`인 것을 찾습니다. `Path`의 변수 값의 마지막 부분에 `;%JAVA_HOME%\bin;`을 추가합니다. (처음과 끝에 세미콜론(;)을 붙여줍니다.) 입력이 완료되면, 모두 확인을 누르고 빠져나옵니다. 
+
 ### Jpype 설치
-우선, [여기](https://www.lfd.uci.edu/~gohlke/pythonlibs/#jpype)에 가셔서 `Jpype`를 로컬 저장소에 다운로드하여야 합니다.
+우선, [여기](https://www.lfd.uci.edu/~gohlke/pythonlibs/#jpype)에서 `Jpype`를 로컬 저장소에 다운로드하여야 합니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/jpype1.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/jpype1.JPG" width="70%" height="50%">
 </p>
 
 여러 가지 버전이 존재하는데요, 그중에서 32비트 파이썬을 설치한 경우에는, `JPype1‑0.6.3‑cp37‑cp37m‑win32.whl`를 선택하고 다운로드해줍니다. 64비트 파이썬을 설치한 경우에는, `JPype1‑0.6.3‑cp37‑cp37m‑win_amd64.whl`를 선택하고 다운로드해줍니다.
@@ -101,7 +102,7 @@
 저장 경로는 따로 특정 지을 필요는 없지만, 원활한 진행을 위해서 파이썬 개발을 위해 만들어둔 프로젝트 폴더를 지정하여 저장해줍니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/jpype2.JPG" width="100%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/jpype2.JPG" width="70%" height="50%">
 </p>
 
 VS Code 실행하고, 가상 환경을 실행합니다. (`. .venv/Scripts/activate`) 가상 한경이 실행되면, 아래 명령어를 입력합니다. 잠시 기다리면, 설치가 완료됩니다!
