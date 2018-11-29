@@ -3,7 +3,7 @@
 웹 개발 기초 ~ 파이썬을 이용한 크롤러 개발 [온라인 강의](http://www.fastcampus.co.kr/dev_online_introdev/) 자료
 
 이 저장소의 내용은 기술의 변화, 오탈자 수정, 내용 추가 등의 이유로 내용이 주기적으로 업데이트될 수 있습니다. 때문에 저장소를 `fork`할 경우 원본 내용과 차이가 있을 수 있음을 알려드립니다.  
-<p text-align="center">
+<p align="center">
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/oline-dev.png" width="35%" height="35%">
 </p>
 

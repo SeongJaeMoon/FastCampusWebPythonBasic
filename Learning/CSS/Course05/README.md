@@ -38,7 +38,7 @@
 
 컨테이너를 지정하면, 자동으로 width 값이 결정되고, `margin`이 설정됩니다.
 
-<p text-align="center">
+<p align="center">
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/CSS/Course05/static/naver.JPG" width="100%" height="70%">
 </p>
 
@@ -104,7 +104,7 @@
 <!-- 중략 -->
 ```
 
-<p text-align="center">
+<p align="center">
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/CSS/Course05/static/col.JPG" width="70%" height="50%">
 </p>
 
@@ -123,7 +123,7 @@
 ```
 위와 같이 코드를 작성하면, 아래와 같이 결과가 나타나게 됩니다.
 
-<p text-align="center">
+<p align="center">
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/CSS/Course05/static/alert.JPG" width="70%" height="50%">
 </p>
 
@@ -138,7 +138,7 @@
 ```
 위와 같이 코드를 작성하면, 아래와 같이 결과가 나타나게 됩니다.
 
-<p text-align="center">
+<p align="center">
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/CSS/Course05/static/button.JPG" width="50%" height="40%">
 </p>
 
@@ -158,7 +158,7 @@
 ```
 위와 같이 코드를 작성하면, 아래와 같이 결과가 나타나게 됩니다.
 
-<p text-align="center">
+<p align="center">
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/CSS/Course05/static/card.JPG" width="70%" height="50%">
 </p>
 
@@ -238,7 +238,7 @@
 ```
 위와 같이 코드를 작성하면, 아래와 같이 결과가 나타나게 됩니다. 
 
-<p text-align="center">
+<p align="center">
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/CSS/Course05/static/nv.JPG" width="70%" height="70%">
 </p>
 
