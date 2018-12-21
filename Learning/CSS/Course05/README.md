@@ -211,7 +211,7 @@
 ```
 위와 같이 코드를 작성하면, 아래와 같이 결과가 나타나게 됩니다. 
 
-<p text-align="center">
+<p align="center">
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/CSS/Course05/static/cs.JPG" width="70%" height="70%">
 </p>
 

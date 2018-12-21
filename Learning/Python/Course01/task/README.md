@@ -6,57 +6,13 @@
 ## Windows 운영체제
 윈도우 운영체제를 사용하시는 분은 아래 패키지를 설치하기 전에 `java`와 `JPype`를 설치해주셔야 합니다. 맥 운영체제를 사용하시는 분은 이 부분은 건너뛰고 바로 [패키지 설치](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course01/task/#패키지-설치)를 진행하시면 됩니다.
 
-### 자바 설치
-
-<p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/java1.JPG" width="100%" height="70%">
-</p>
-
-구글 검색 창에 `java`를 입력합니다. 가장 상단에 나오는 "무료 소프트웨어 다운로드"를 선택합니다.
-
-<p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/java2.JPG" width="100%" height="70%">
-</p>
-
-경우에 따라서, 쿠키 설정 동의 요청 창이 나올 수가 있습니다. 모두 `예`를 클릭하고, `기본 설정 제출`을 클릭합니다.
-
-<p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/java3.JPG" width="100%" height="70%">
-</p>
-
-`동의 및 무료 다운로드 시작`을 클릭해줍니다.
-
-<p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/java4.JPG" width="100%" height="70%">
-</p>
-
-설치 마법사가 나오면 `설치`를 클릭하여 설치를 시작합니다.
-
-<p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/java6.JPG" width="100%" height="70%">
-</p>
-
-잠시 기다리면, 설치가 진행됩니다.
-
-<p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/java7.JPG" width="100%" height="70%">
-</p>
-
-만약, 기존의 구 버전 자바가 설치되었다면, 위와 같은 화면이 나오게 됩니다. `설치 해제`를 클릭해줍니다. (일정 시간 이상 소요될 수 있습니다.) 
-
-<p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/java10.JPG" width="100%" height="70%">
-</p>
-
-잠시 기다리면 자바 설치가 완료됩니다.
-
-## JDK 설치
+## 자바 JDK 설치
 
 <p align="center">
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/jdk1.png" width="100%" height="70%">
 </p>
 
-다음으로, JDK를 설치해야 합니다. [여기](https://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html)에 접속합니다. `Oracle JDK`부분을 클릭합니다.
+우선, JDK를 설치해야 합니다. [여기](https://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html)에 접속합니다. `Oracle JDK`부분을 클릭합니다.
 
 <p align="center">
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/jdk2.png" width="100%" height="70%">
