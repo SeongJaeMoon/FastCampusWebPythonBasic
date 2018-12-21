@@ -54,7 +54,7 @@ HTML 태그 중에는 `<div>`와 `<span>`이라는 다른 태그를 그룹화하
 위 코드의 내용 중 `style` 부분은 콘텐츠의 문자 색을 변경하는 코드이며 CSS 파트에서 볼 수 있는 내용입니다.
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/HTML/Course05/static/ret1.png" width="50%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/HTML/Course05/static/ret1.PNG" width="50%" height="70%">
 </p>
 
 코드를 실행하면 위와 같은 결과가 나오는데요, 눈 여겨볼 점은 첫 번째 그룹과 두 번째 그룹의 `<h1>`태그와 `<p>`태그가 각각 빨간색, 초록색으로 변경된 점입니다. 참고로 이렇게 부모 요소에 적용한 스타일을 자식 요소들이 물려받고, 영향을 받는 형태를 일반적으로 스타일 상속이라고 부릅니다.
@@ -85,7 +85,7 @@ HTML 태그 중에는 `<div>`와 `<span>`이라는 다른 태그를 그룹화하
 </html>
 ```
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/HTML/Course05/static/ret1.png" width="50%" height="70%">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/HTML/Course05/static/ret2.PNG" width="50%" height="70%">
 </p>
 
 코드를 실행하면 위와 같은 결과가 나오는데요, 눈 여겨볼 점은 `<span>`태그로 감싼 인라인 요소들은 검은색으로 변경된 점입니다. 
