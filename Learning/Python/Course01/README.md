@@ -166,22 +166,22 @@ VS Code를 실행하고, 새로 생성한 프로젝트 폴더를 엽니다. 우�
 ### Windows virtualenv 가상 환경 설치
 
 <p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/mvscode1.png" width="100%" height="70%">
-</p>
-
-터미널에 아래 명령어를 실행합니다. 아래 명령어를 실행하면, `.venv`라는 폴더가 생성되게 됩니다. 여기서 말하는 `.venv`는 가상환경 프로젝트를 말합니다. 통상적으로, `.venv`, `.env` 등의 이름으로 작성하게 되고, 변경해서 사용해도 괜찮습니다. 잠시 기다리면 설치가 완료됩니다.
-
-> virtualenv -p python3 .venv
-
-### Mac virtualenv 가상 환경 설치
-
-<p align="center">
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/vscode4.JPG" width="100%" height="70%">
 </p>
 
 터미널에 아래 명령어를 실행합니다. 아래 명령어를 실행하면, `.venv`라는 폴더가 생성되게 됩니다. 여기서 말하는 `.venv`는 가상환경 프로젝트를 말합니다. 통상적으로, `.venv`, `.env` 등의 이름으로 작성하게 되고, 변경해서 사용해도 괜찮습니다. 잠시 기다리면 설치가 완료됩니다.
 
 > virtualenv -p python .venv
+
+### Mac virtualenv 가상 환경 설치
+
+<p align="center">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/mvscode1.png" width="100%" height="70%">
+</p>
+
+터미널에 아래 명령어를 실행합니다. 아래 명령어를 실행하면, `.venv`라는 폴더가 생성되게 됩니다. 여기서 말하는 `.venv`는 가상환경 프로젝트를 말합니다. 통상적으로, `.venv`, `.env` 등의 이름으로 작성하게 되고, 변경해서 사용해도 괜찮습니다. 잠시 기다리면 설치가 완료됩니다.
+
+> virtualenv -p python3 .venv
 
 ### Windows 가상 환경 실행
 
