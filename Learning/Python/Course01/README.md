@@ -10,8 +10,9 @@
     - [맥 파이썬 설치](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course01/#mac-운영체제)
     - [VS Code 파이썬 확장 설치](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course01/#vs-code-확장공통)
     - [파이썬 가상 환경](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course01/#python-가상-환경)
-    - [윈도우 가상환경 설치](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course01/#windows-가상-환경)
-    - [맥 가상환경 설치](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course01/#mac-가상-환경)
+    - [가상 환경 설치](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course01/#가상환경-설치-및-실행)
+    - [윈도우 가상환경 실행](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course01/#windows-가상-환경-실행)
+    - [맥 가상환경 실행](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course01/#mac-가상-환경-실행)
     - [VS Code 인터프리터 모드 설정](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course01/#vs-code-인터프리터공통)
     - [파이썬 기본 문법](https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/tree/master/Learning/Python/Course01/#python-기본-문법)
 
@@ -53,7 +54,7 @@
 > python
 
 ### Mac 운영체제
-맥 OS를 사용하시는 분은 파이썬 설치 전에 선행해주셔야 할 것이 있습니다. (Xcode가 설치되어 있으시다면, 이 부분은 건너뛰고 바로 파이썬을 설치해주시면 됩니다.)
+맥 OS를 사용하시는 분은 터미널 명령어 앞에 관리자 권한을 나타내는 `sudo`를 입력하고 명령어를 입력합니다. 또한, 파이썬 설치 전에 선행해주셔야 할 것이 있습니다. (Xcode가 설치되어 있으시다면, 이 부분은 건너뛰고 바로 파이썬을 설치해주시면 됩니다.)
 
 <p align="center">
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/xcode1.png" width="100%" height="70%">
@@ -132,11 +133,23 @@ VS Code를 실행하고, 새로 생성한 프로젝트 폴더를 엽니다. 우�
 이제 터미널에 마우스 커서를 가져가 명령어를 입력할 수 있게되면, `cd code01` 명령어를 터미널에 입력합니다. **윈도우의 경우엔** `python main.py`를, **맥의 경우엔** `python3 main.py`를 입력하면 파이썬 코드를 실행할 수 있습니다. 터미널에 "안녕하세요"라고 잘 나오면, 성공입니다!
 
 ## 가상환경 설치 및 실행
-우선, 파이썬 패키지 관리자인 `pip`가 최신 버전인지 확인하기 위해 아래 명령어를 터미널에 입력합니다.
+파이썬 가상 환경을 설정하는 방법은 크게 두 가지 입니다. `virtualenv`또는, `venv`를 사용하는 방법입니다. 먼저, `python3.4` 이후 버전부터는 표준 배포판에 가상 환경 설치를 위한 `venv`라는 이름의 가상 환경 도구가 함께 탑재되어 있습니다. 
+
+<p align="center">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/venv.PNG" width="100%" height="70%">
+</p>
+
+터미널에 아래 명령어를 입력합니다.
+
+> 윈도: `python -m venv .venv`
+
+> 맥: `python3 -m venv .venv`
+
+다음으로, `PyPI`로 설치하는 `virtualenv`를 사용할 수 있습니다. `virtualenv`로 설치할 경우 파이썬 패키지 관리자인 `pip`가 최신 버전인지 확인하기 위해 아래 명령어를 터미널에 입력합니다.
 
 > pip3 install --upgrade pip
 
-이제 본격적으로 프로젝트 가상 환경을 구성해보도록 하겠습니다.
+아래 내용은 `virtualenv`로 가상 환경을 설치하는 과정입니다.
 
 <p align="center">
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/vscode2.JPG" width="100%" height="70%">
@@ -144,11 +157,23 @@ VS Code를 실행하고, 새로 생성한 프로젝트 폴더를 엽니다. 우�
 
 터미널에 아래 명령어를 입력합니다. `Successfully installed virtualenv-version`이 나오면 정상적으로 설치된 것입니다.
 
-> pip3 install virtualenv
+> 윈도: pip3 install virtualenv
 
-이제 가상 환경을 만들고, 실행 시켜보도록 하겠습니다.
+> 맥: sudo pip3 install virtualenv
 
-### Windows 가상 환경
+이제 가상 환경을 만들도록 하겠습니다.
+
+### Windows virtualenv 가상 환경 설치
+
+<p align="center">
+    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/mvscode1.png" width="100%" height="70%">
+</p>
+
+터미널에 아래 명령어를 실행합니다. 아래 명령어를 실행하면, `.venv`라는 폴더가 생성되게 됩니다. 여기서 말하는 `.venv`는 가상환경 프로젝트를 말합니다. 통상적으로, `.venv`, `.env` 등의 이름으로 작성하게 되고, 변경해서 사용해도 괜찮습니다. 잠시 기다리면 설치가 완료됩니다.
+
+> virtualenv -p python3 .venv
+
+### Mac virtualenv 가상 환경 설치
 
 <p align="center">
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/vscode4.JPG" width="100%" height="70%">
@@ -157,6 +182,8 @@ VS Code를 실행하고, 새로 생성한 프로젝트 폴더를 엽니다. 우�
 터미널에 아래 명령어를 실행합니다. 아래 명령어를 실행하면, `.venv`라는 폴더가 생성되게 됩니다. 여기서 말하는 `.venv`는 가상환경 프로젝트를 말합니다. 통상적으로, `.venv`, `.env` 등의 이름으로 작성하게 되고, 변경해서 사용해도 괜찮습니다. 잠시 기다리면 설치가 완료됩니다.
 
 > virtualenv -p python .venv
+
+### Windows 가상 환경 실행
 
 <p align="center">
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/vscode5.JPG" width="100%" height="70%">
@@ -168,25 +195,15 @@ VS Code를 실행하고, 새로 생성한 프로젝트 폴더를 엽니다. 우�
 
 - 간혹, 환경 변수 문제로 인해서 위 명령어로 가상 환경을 실행할 경우 `'.'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는 배치 파일이 아닙니다.`라고 나타나는 경우가 있습니다. 그러한 경우엔 .을 제외하고 아래와 같이 명령어를 입력해주세요.
 
-- 간혹, `보안 오류: (:)[], PSSecurityException`이라고 나오는 경우가 있습니다. 이러한 경우 아래의 내용을 진행해주세요.
+> .venv/Scripts/activate
+
+- `보안 오류: (:)[], PSSecurityException`이라고 나오는 경우가 있습니다. 이러한 경우 아래의 내용을 진행해주세요.
 1. VS Code를 관리자 권한으로 실행하고, 가상 환경을 실행합니다. 
 2. 1번에서 정상적으로 진행되지 않을 경우 파워셀(Power Shell)을 관리자 권한으로 엽니다.
 3. Set-ExecutionPolicy Unrestricted -Scope CurrentUser를 입력합니다. 
 4. 3번을 한 경우에도 동작하지 않을 경우, Set-ExecutionPolicy Unrestricted -Force를 입력합니다. 
 
-
-> .venv/Scripts/activate
-
-### Mac 가상 환경
-
-<p align="center">
-    <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/mvscode1.png" width="100%" height="70%">
-</p>
-
-터미널에 아래 명령어를 실행합니다. 아래 명령어를 실행하면, `.venv`라는 폴더가 생성되게 됩니다. 여기서 말하는 `.venv`는 가상환경 프로젝트를 말합니다. 통상적으로, `.venv`, `.env` 등의 이름으로 작성하게 되고, 변경해서 사용해도 괜찮습니다. 잠시 기다리면 설치가 완료됩니다.
-
-> virtualenv -p python3 .venv
-
+### Mac 가상 환경 실행
 
 <p align="center">
     <img src="https://github.com/SeongJaeMoon/FastCampusWebPythonBasic/blob/master/Learning/Python/Course01/static/mvscode2.png" width="100%" height="70%">
