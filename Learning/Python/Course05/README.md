@@ -65,7 +65,7 @@ print(a) # {'d', 'e', 'f'}
 아래 코드는 튜플의 특징을 나타내는 예시입니다.
 ```python
 # 1번 코드
-rainbow = 'red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'
+rainbow = 'red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet',
 # 2번 코드
 rainbow[0] = 'black' # TypeError 에러 발생!
 # 3번 코드
