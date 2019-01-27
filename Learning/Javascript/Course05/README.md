@@ -68,12 +68,10 @@ console.log(z); //0
 
 ```javascript
 var str1 = "What a very "
-str1 + "beautiful day"
-console.log(str1); //What a very beautiful day
+console.log(str1 + "beautiful day"); //What a very beautiful day
 
-var str2 = "What a very"
-"beautiful day " + str2 
-console.log(str2); //beautiful day What a very 
+var str2 = "What a very" 
+console.log("beautiful day " + str2 ); //beautiful day What a very 
 
 var str3 = "What a very ";
 str3 += "beautiful day";
