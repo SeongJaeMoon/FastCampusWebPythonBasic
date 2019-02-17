@@ -130,7 +130,7 @@ VS Code 실행하고, 가상 환경을 실행합니다. (`. .venv/Scripts/activa
 
 ```python
 from bs4 import BeautifulSoup
-from opnepyxl import load_workbook
+from openpyxl import load_workbook
 from konlpy.tag import Okt
 import requests
 
