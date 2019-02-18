@@ -43,7 +43,7 @@ table 태그와 ul 태그는 여러가지 정보를 규칙적으로 표현할 �
 <tbody>
   <tr>
       <!-- 행 합치기 -->
-    <th rowspan="2">나이</th>
+    <td rowspan="2">나이</td>
     <td>20살이라면...</td>
   </tr>
   <tr>
