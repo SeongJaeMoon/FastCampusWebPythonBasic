@@ -15,25 +15,32 @@ table 태그와 ul 태그는 여러가지 정보를 규칙적으로 표현할 �
 
 ```html
 <table>
+<thead>
   <tr>
     <th>이름</th>
     <!-- 열 합치기 -->
     <th colspan="2">나이</th>
   </tr>
+</thead>
+<tbody>
   <tr>
     <td>문성재</td>
     <td>20살이라면...</td>
     <td>20살이라면...</td>
   </tr>
+</tbody>
 </table>
 ```
 위 처럼 colspan 속성을 제목을 나타내는 th 태그에 작성하면 제목 태그의 열(좌,우)이 합쳐져서 나타납니다.
 ```html
 <table>
+<thead>
   <tr>
     <th>이름</th>
-    <td>문성재</td>
+    <th>문성재</th>
   </tr>
+</thead>
+<tbody>
   <tr>
       <!-- 행 합치기 -->
     <th rowspan="2">나이</th>
@@ -42,6 +49,7 @@ table 태그와 ul 태그는 여러가지 정보를 규칙적으로 표현할 �
   <tr>
     <td>20살이라면...</td>
   </tr>
+</tbody>
 </table>
 ```
 위 처럼 rowspan 속성을 제목을 나타내는 th 태그에 작성하면 제목 태그의 행(위,아래)이 합쳐져서 나타납니다. 
