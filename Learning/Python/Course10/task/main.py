@@ -14,7 +14,7 @@ def get_rank(random_list):
         if not (n in result):
             result[n] = 0
         result[n] += 1
-    result = sorted(result.items(), key = lambda x:x[1], reverse = True)
+    result = sorted(result.items(), key=lambda x:x[1], reverse=True)
     return result
 
 '''
