@@ -54,10 +54,12 @@ console.log(window.globalVar); //"전역 변수!"
 var user = {
     firstName: "Seongjae",
     lastName: "Moon",
-    fullName: this.firstName + " " + this.lastName;
+    fullName: function() {
+        return this.firstName+" "+this.lastName;
+    }
 }
 
-console.log(user.fullName); //Seongjae Moon
+console.log(user.fullName()); //Seongjae Moon
 ```
 상대적으로 객체에서 사용된 `this` 키워드는 이해하기 쉽습니다. 우리가 이벤트에서 `this` 키워드를 이용해 이벤트가 발생한 엘리먼트 자신의 정보를 가져올 수 있다고 알아봤습니다. 
 
