@@ -138,7 +138,7 @@ window.addEventListener('keypress', log, false);
 아래 코드는 `test`라는 아이디 속성 값을 갖는 `<input>` 태그가 html 코드에 짜여있다고 가정합니다.
 ```javascript
 document.getElementById("test").addEventListener("keydown", function(e){
-    var isCapsLock = e.getModifier("CapsLock");
+    var isCapsLock = e.getModifierState("CapsLock");
     if(isCapsLock){
         //CapsLock 키가 활성화 상태
     }else{
