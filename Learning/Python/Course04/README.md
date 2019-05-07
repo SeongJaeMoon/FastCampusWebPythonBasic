@@ -79,7 +79,7 @@ print(a[:-1]) # 1, 2, 3 (0~(1-(-1)))
 
 위 코드 예시를 통해 알 수 있듯이, 마지막 인덱스가 생략되면, **지정한 시작 인덱스부터, 마지막 인덱스까지의 값**을 가져올 수 있습니다. 마찬가지로, 시작 인덱스가 생략되면, 리스트의 **0번째 인덱스부터, 지정한 끝 인덱스 - 1** 까지의 값을 가져올 수 있습니다. 
 
-참고로, 앞선 장에서 리스트의 마지막 인덱스에 값을 할당하는 예시인 `a[(len(a) - 1)]` 코드는 슬라이스 코드인, `a[len(a):]`로도 표현 할 수 있습니다.
+참고로, 앞선 장에서 리스트의 마지막 인덱스에 값을 할당하는 예시인 `a[(len(a) - 1)]` 코드는 `a[-1]`로도 표현 할 수 있습니다.
 
 ### 리스트 메서드
 앞서, 리스트는 컨테이너 객체 중에 하나라고 말씀드렸습니다. 리스트도 하나의 객체이기 때문에, 굉장히 다양한 메서드를 제공합니다. 
@@ -106,7 +106,7 @@ list.copy()|리스트를 얕은 복사(Shallow Copy)합니다.
 ```python
 rainbow = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
 
-del rainbow[len(rainbow):] # 마지막 인덱스 요소 삭제
+del rainbow[-1] # 마지막 인덱스 요소 삭제
 print(rainbow) # ['red', 'orange', 'yellow', 'green', 'blue', 'indigo']
 rainbow.append('violet') # 추가
 print(rainbow) # ['red', 'orange', 'yellow', 'green', 'blue', 'indigo']
